@@ -1,40 +1,17 @@
-footer {
-  background-color: #303030;
-  color: white;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 14px;
-}
-footer li {
-  list-style: none;
-}
+/* Error: expected "{".
+ *    ,
+ * 16 | >>>>>>> Stashed changes
+ *    |                        ^
+ *    '
+ *   estilos.scss 16:24  root stylesheet */
 
-.footer_Principal_Texto {
-  color: #E27D60;
-  margin: 0.625rem 0;
-  padding: 1.875rem 0;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 16 \2502  >>>>>>> Stashed changes\a    \2502                         ^\a    \2575 \a   estilos.scss 16:24  root stylesheet';
 }
-
-.footer_container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  width: 73.125rem;
-}
-.footer_container .icon_social {
-  display: flex;
-  align-items: center;
-}
-.footer_container img {
-  margin: 0.625rem;
-}
-
-.icon_flex {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.icon_flex img {
-  margin: 0.625rem 0px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
