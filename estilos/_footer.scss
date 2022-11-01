@@ -1,0 +1,38 @@
+footer{
+  background-color: #303030;
+  color: white;;
+
+   li{
+    list-style: none;
+   }
+}
+
+.footer_Principal_Texto{
+  color: #E27D60;
+  margin: .625rem 0;
+  padding: 1.875rem 0;
+}
+
+.footer_container{
+  display: flex;
+  justify-content: space-between;
+  margin:0 auto;
+  width: 73.125rem;
+  .icon_social{
+    display: flex;
+    align-items: center;
+  }
+    img{
+      margin: .625rem;
+    }
+}
+
+.icon_flex{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+ img{
+    margin: .625rem 0px;
+  }
+}
+
