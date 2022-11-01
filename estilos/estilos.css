@@ -1,5 +1,24 @@
+
 .our_team_people li {
   list-style: none;
 }
-
 /*# sourceMappingURL=estilos.css.map */
+=======
+/* Error: Undefined variable.
+ *    ,
+ * 11 |   color: $color-naranja-oscuro;
+ *    |          ^^^^^^^^^^^^^^^^^^^^^
+ *    '
+ *   _footer.scss 11:10  @import
+ *   estilos.scss 3:9    root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 11 \2502    color: $color-naranja-oscuro;\a    \2502           ^^^^^^^^^^^^^^^^^^^^^\a    \2575 \a   _footer.scss 11:10  @import\a   estilos.scss 3:9    root stylesheet";
+}
