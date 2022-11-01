@@ -1,6 +1,8 @@
 body {
   width: 120rem;
   margin: 0 auto;
+}
+
 footer {
   background-color: #303030;
   color: white;
@@ -28,6 +30,7 @@ footer li {
 .footer_container img {
   margin: 0.625rem;
 }
+
 .icon_flex {
   display: flex;
   align-items: center;
@@ -36,6 +39,9 @@ footer li {
 .icon_flex img {
   margin: 0.625rem 0px;
 }
+
 .icon_flex p {
   margin-left: 1.25rem;
 }
+
+/*# sourceMappingURL=estilos.css.map */
