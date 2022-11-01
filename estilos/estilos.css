@@ -1,6 +1,7 @@
 body {
   width: 120rem;
   margin: 0 auto;
+}
 footer {
   background-color: #303030;
   color: white;
@@ -8,13 +9,11 @@ footer {
 footer li {
   list-style: none;
 }
-
 .footer_Principal_Texto {
   color: #E27D60;
   margin: 0.625rem 0;
   padding: 1.875rem 0;
 }
-
 .footer_container {
   display: flex;
   justify-content: space-between;
@@ -39,3 +38,4 @@ footer li {
 .icon_flex p {
   margin-left: 1.25rem;
 }
+/*# sourceMappingURL=estilos.css.map */
