@@ -1,0 +1,57 @@
+header{
+  display: flex;
+  height: 6.5rem;
+  width: 73.125rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  img{
+    width: 6.1875rem;
+    height: 1.25rem;
+  }
+  .nav-principal{
+    ul{
+      list-style: none;
+      display: flex;
+      li{
+        padding: 0 .9375rem;
+        a{
+          display: flex;
+          align-items: center;
+          text-decoration: none;
+          color: $color-negro;
+          font-family: 'Libre Franklin';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 1rem;
+          line-height: 1.1875rem;
+          letter-spacing: 0.02rem;
+          &:hover{
+            color: $color-naranja-oscuro;
+          }
+          img{
+            width: 1.1875rem;
+            height: 1.1875rem;
+          }
+        }
+      }
+    }
+  }
+  .nav-header{
+    ul{
+      list-style: none;
+      display: flex;
+      li{
+        padding: 0 .625rem;
+        a{
+          display: flex;
+          align-items: center;
+          img{
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}
