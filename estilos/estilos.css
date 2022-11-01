@@ -1,6 +1,19 @@
-body {
-  width: 120rem;
-  margin: 0 auto;
-}
+/* Error: There's already a module with namespace "header".
+ *   ,
+ * 2 | @use "header";
+ *   | ============= original @use
+ * 3 | @use "header";
+ *   | ^^^^^^^^^^^^^ new @use
+ *   '
+ *   estilos.scss 3:1  root stylesheet */
 
-/*# sourceMappingURL=estilos.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: There's already a module with namespace \"header\".\a   \2577 \a 2 \2502  @use \"header\";\a   \2502  \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  original @use\a 3 \2502  @use \"header\";\a   \2502  ^^^^^^^^^^^^^ new @use\a   \2575 \a   estilos.scss 3:1  root stylesheet";
+}

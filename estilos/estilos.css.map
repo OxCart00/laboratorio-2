@@ -1,1 +1,4 @@
 {"version":3,"sourceRoot":"","sources":["estilos.scss"],"names":[],"mappings":"AAWA;EACE;EACA","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["_ourteam.scss"],"names":[],"mappings":"AAAA;EACA","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["estilos.scss","_footer.scss"],"names":[],"mappings":"AAQA;EACE;EACA;;;ACVF;EACE;EACA;;AAEC;EACC;;;AAIJ;EACE,ODVqB;ECWrB;EACA;;;AAGF;EACE;EACA;EACA;EACA;;AACA;EACE;EACA;;AAEA;EACE;;;AAIN;EACE;EACA;EACA;;AACD;EACG;;;AAIJ;EACE","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["estilos.scss"],"names":[],"mappings":"AAWA;EACE;EACA","file":"estilos.css"}
