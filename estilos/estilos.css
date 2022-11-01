@@ -1,8 +1,6 @@
 footer {
   background-color: #303030;
   color: white;
-  font-family: 'Libre Franklin', sans-serif;
-  font-size: 14px;
 }
 footer li {
   list-style: none;
@@ -17,7 +15,7 @@ footer li {
 .footer_container {
   display: flex;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 1.25rem auto;
   width: 73.125rem;
 }
 .footer_container .icon_social {
@@ -35,6 +33,10 @@ footer li {
 }
 .icon_flex img {
   margin: 0.625rem 0px;
+}
+
+.icon_flex p {
+  margin-left: 1.25rem;
 }
 
 /*# sourceMappingURL=estilos.css.map */
