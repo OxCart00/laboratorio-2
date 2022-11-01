@@ -20,7 +20,7 @@ footer li {
 .footer_container {
   display: flex;
   justify-content: space-between;
-  margin: 1.25rem auto;
+  margin: 0 auto 1.25rem;
   width: 73.125rem;
 }
 .footer_container .icon_social {
