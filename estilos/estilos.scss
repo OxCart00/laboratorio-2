@@ -1,3 +1,5 @@
+@use "header";
+
 $color-naranja-oscuro: #E27D60;
 $color-morado: #8855DD;
 $color-naranja-claro: #E8A87C;
@@ -9,4 +11,5 @@ $color-blanco: #ffffff;
 
 body{
   width: 120rem;
-  margin: 0 auto;}
+  margin: 0 auto;
+}
