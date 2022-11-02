@@ -98,4 +98,13 @@ header .nav-header ul li a img {
   height: 1.5rem;
 }
 
+.headline {
+  background: linear-gradient(to right, #ffffff 23.4375rem, #e6e6e6 96.5625rem);
+  height: 9rem;
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=estilos.css.map */
