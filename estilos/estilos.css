@@ -48,20 +48,20 @@ footer li {
 .newsseller_Container {
   position: relative;
 }
-.newsseller_Container p {
-  color: #ffffff;
-}
-.newsseller_Container p img {
+.newsseller_Container div img {
   position: relative;
-  top: 1.5rem;
+  top: 0.5rem;
+}
+.newsseller_Container div p {
+  color: #ffffff;
 }
 
 .container2 {
   position: absolute;
-  top: 92px;
-  left: 362px;
+  top: 4rem;
+  left: 22.625rem;
   color: white;
-  width: 1170px;
+  width: 73.125rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -73,12 +73,12 @@ footer li {
 .container2 .Dp .Nwt {
   font-family: "Libre Franklin";
   font-weight: 700;
-  font-size: 36px;
+  font-size: 2.25rem;
   margin: 0 auto;
 }
 .container2 .Dp p {
   font-family: "Work Sans";
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 .container2 .Dp p span {
   color: #E27D60;
@@ -87,11 +87,11 @@ footer li {
 .email_i {
   height: 2.625rem;
   width: 35.625rem;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
 }
 
 .email_i::placeholder {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: #303030;
   opacity: 0.3;
 }
@@ -99,7 +99,11 @@ footer li {
 .subs {
   height: 2.625rem;
   width: 10.625rem;
-  margin-left: 10px;
+  margin-left: 0.625rem;
+  color: #ffffff;
+  background-color: #303030;
+  font-size: 18px;
+  border: none;
 }
 
 header {
