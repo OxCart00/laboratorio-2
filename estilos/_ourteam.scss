@@ -1,3 +1,85 @@
+
 .our_team_people li {
 list-style: none;
+}
+.our_team {
+    width: 73.125rem;
+    margin: 0 auto;
+}
+
+.our_team h3 {
+    font-size: 1.25rem;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-bottom: .9375rem;
+}
+
+.our_team p {
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    opacity: 0.5;
+}
+
+.our_team img {
+    width: 16.875rem;
+    height: 22rem;
+}
+
+.our_team_title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sub_up {
+    margin-bottom: .625rem;
+    font-family: 'Work Sans';
+    font-size: 1rem;
+    color: #303030;
+}
+
+.sub_down {
+    margin-bottom: 1.25rem;
+    gap: 1.25rem;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.25rem;
+    color: #E27D60;
+}
+
+.sub_down_2 {
+    margin-bottom: 2.5rem;
+    font-size: 1.125rem;
+}
+
+.our_team_people ul {
+padding: 0;
+}
+
+.our_team_people li {
+list-style: none;
+}
+
+.our_team_people_row1 {
+    display: flex;
+    gap: 1.875rem;
+    margin-bottom: 2.125rem;
+}
+
+.our_team_people_row2 {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.our_team_people_text {
+    margin-left: 1.25rem;
+}
+
+.show_more {
+    margin: 0 31.25rem;
+    margin-top: 1.25rem;
+    background-color: #303030;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.125rem;
+    padding: .625rem 2.25rem .625rem 2.25rem;
+    border-radius: .1875rem;
+    border: #303030;
 }

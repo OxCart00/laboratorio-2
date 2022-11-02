@@ -1,6 +1,4 @@
 
-@use "header";
-
 $color-naranja-oscuro: #E27D60;
 $color-morado: #8855DD;
 $color-naranja-claro: #E8A87C;
@@ -17,4 +15,6 @@ body{
 
 @import "footer";
 @import "Newsseller";
-
+@import "header";
+@import "ourteam";
+@import "headline";

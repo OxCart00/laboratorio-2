@@ -6,6 +6,7 @@ body {
 footer {
   background-color: #303030;
   color: white;
+  font-family: "Libre Franklin";
 }
 footer li {
   list-style: none;
@@ -20,7 +21,7 @@ footer li {
 .footer_container {
   display: flex;
   justify-content: space-between;
-  margin: 1.25rem auto;
+  margin: 0 auto 1.25rem;
   width: 73.125rem;
 }
 .footer_container .icon_social {
@@ -99,6 +100,173 @@ footer li {
   height: 2.625rem;
   width: 10.625rem;
   margin-left: 10px;
+}
+
+header {
+  display: flex;
+  height: 6.5rem;
+  width: 73.125rem;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header img {
+  width: 6.1875rem;
+  height: 1.25rem;
+}
+header .nav-principal ul {
+  list-style: none;
+  display: flex;
+}
+header .nav-principal ul li {
+  padding: 0 0.9375rem;
+}
+header .nav-principal ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #303030;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.02rem;
+}
+header .nav-principal ul li a:hover {
+  color: #E27D60;
+}
+header .nav-principal ul li a img {
+  width: 1.1875rem;
+  height: 1.1875rem;
+}
+header .nav-header ul {
+  list-style: none;
+  display: flex;
+}
+header .nav-header ul li {
+  padding: 0 0.625rem;
+}
+header .nav-header ul li a {
+  display: flex;
+  align-items: center;
+}
+header .nav-header ul li a img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.our_team_people li {
+  list-style: none;
+}
+
+.our_team {
+  width: 73.125rem;
+  margin: 0 auto;
+}
+
+.our_team h3 {
+  font-size: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  margin-bottom: 0.9375rem;
+}
+
+.our_team p {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.5;
+}
+
+.our_team img {
+  width: 16.875rem;
+  height: 22rem;
+}
+
+.our_team_title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.sub_up {
+  margin-bottom: 0.625rem;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  color: #303030;
+}
+
+.sub_down {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
+  color: #E27D60;
+}
+
+.sub_down_2 {
+  margin-bottom: 2.5rem;
+  font-size: 1.125rem;
+}
+
+.our_team_people ul {
+  padding: 0;
+}
+
+.our_team_people li {
+  list-style: none;
+}
+
+.our_team_people_row1 {
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 2.125rem;
+}
+
+.our_team_people_row2 {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.our_team_people_text {
+  margin-left: 1.25rem;
+}
+
+.show_more {
+  margin: 0 31.25rem;
+  margin-top: 1.25rem;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
+}
+
+.headline {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 19%, #e6e6e6 19%, #e6e6e6 100%);
+  height: 9rem;
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headline h3 {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.headline h1 {
+  margin: 0;
+  color: #E27D60;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
