@@ -6,6 +6,7 @@ body {
 footer {
   background-color: #303030;
   color: white;
+  font-family: "Libre Franklin";
 }
 footer li {
   list-style: none;
