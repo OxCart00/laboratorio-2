@@ -273,4 +273,101 @@ header .nav-header ul li a img {
   line-height: 44px;
 }
 
+.giveusavisit {
+  margin: 6.25rem 0;
+  background: linear-gradient(to left, #ffffff 0%, #ffffff 35%, #e6e6e6 35%, #e6e6e6 100%);
+  height: 460px;
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.giveusavisit .giveus-content {
+  display: flex;
+  width: 1170px;
+  height: 340px;
+  gap: 100px;
+  align-items: center;
+}
+.giveusavisit .giveus-text {
+  display: flex;
+  flex-direction: column;
+  height: 340px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 0.0625rem;
+}
+.giveusavisit h3 {
+  text-align: right;
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+.giveusavisit h2 {
+  text-align: right;
+  margin: 0;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  color: #E27D60;
+}
+.giveusavisit p {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color: #303030;
+  opacity: 0.8;
+}
+.giveusavisit .giveus-boton {
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
+}
+
+.giveusavisitb {
+  margin: 6.25rem 0;
+  background: linear-gradient(to left, #ffffff 0%, #ffffff 35%, #e6e6e6 35%, #e6e6e6 100%);
+  height: 691px;
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.giveusavisitb .giveus-text {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+.giveusavisitb ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.giveusavisitb .giveus-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
