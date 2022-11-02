@@ -45,6 +45,67 @@ footer li {
   margin-left: 1.25rem;
 }
 
+.newsseller_Container {
+  position: relative;
+}
+.newsseller_Container div img {
+  position: relative;
+  top: 0.5rem;
+}
+.newsseller_Container div p {
+  color: #ffffff;
+}
+
+.container2 {
+  position: absolute;
+  top: 4rem;
+  left: 22.625rem;
+  color: white;
+  width: 73.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.container2 .Dp {
+  width: 32%;
+}
+.container2 .Dp .Nwt {
+  font-family: "Libre Franklin";
+  font-weight: 700;
+  font-size: 2.25rem;
+  margin: 0 auto;
+}
+.container2 .Dp p {
+  font-family: "Work Sans";
+  font-size: 1.125rem;
+}
+.container2 .Dp p span {
+  color: #E27D60;
+}
+
+.email_i {
+  height: 2.625rem;
+  width: 35.625rem;
+  margin-left: 0.3125rem;
+}
+
+.email_i::placeholder {
+  font-size: 1.125rem;
+  color: #303030;
+  opacity: 0.3;
+}
+
+.subs {
+  height: 2.625rem;
+  width: 10.625rem;
+  margin-left: 0.625rem;
+  color: #ffffff;
+  background-color: #303030;
+  font-size: 18px;
+  border: none;
+}
+
 header {
   display: flex;
   height: 6.5rem;
