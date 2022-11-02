@@ -1,6 +1,5 @@
 
 @use "header";
-@import "footer";
 
 $color-naranja-oscuro: #E27D60;
 $color-morado: #8855DD;
@@ -15,3 +14,5 @@ body{
   width: 120rem;
   margin: 0 auto;
 }
+@import "footer";
+@import "ourteam";
