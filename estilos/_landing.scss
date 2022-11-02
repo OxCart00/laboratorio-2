@@ -1,0 +1,75 @@
+.landing{
+  position: relative;
+  width: 1920px;
+  height: 1043px;
+  .landing-img{
+    position: absolute;
+    left: 0%;
+    right: 50.78%;
+    top: 0%;
+    bottom: 37.78%;
+  }
+  .landing-background{
+    left: 19.53%;
+    right: 0%;
+    top: 0%;
+    bottom: 19.94%;
+    width: 96.5625rem;
+    height: 52.1875rem;
+    background-color: $color-naranja-claro;
+    opacity: 0.5;
+    border-radius: 0px 0px 0px 200px;
+    position: absolute;
+  }
+  .landing-text{
+    width: 500px;
+    height: 339px;
+    position: absolute;
+    left: 1045px;
+    top: 202px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2.5rem;
+    h1{
+      font-family: 'Libre Franklin';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 58px;
+      letter-spacing: 0.02em;
+      color: $color-negro;
+      margin: 0;
+      span{
+        color: $color-naranja-oscuro;
+      }
+    }
+    p{
+      color: $color-negro;
+      opacity: 0.5;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      margin: 0;
+    }
+    a{
+      background-color: #303030;
+      color: white;
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 1.125rem;
+      text-decoration: none;
+      padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+      border-radius: 0.1875rem;
+      border: #303030;
+    }
+  }
+  .landing-scroll{
+    position: absolute;
+    left: 44.64%;
+    right: 44.64%;
+    top: 61.46%;
+    bottom: 36.82%;
+  }
+}
