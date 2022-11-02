@@ -1,0 +1,26 @@
+.headline {
+  background: linear-gradient(to right, $color-blanco 0%, $color-blanco 19%, $color-beige 19%, $color-beige 100%);
+  height: 9rem;
+  width: 120rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  h3 {
+    margin: 0;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  h1 {
+    margin: 0;
+    color: $color-naranja-oscuro;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+  }
+}
