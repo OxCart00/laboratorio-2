@@ -658,4 +658,74 @@ header .nav-header ul li a img {
   justify-content: space-evenly;
 }
 
+.text {
+  width: 120rem;
+  height: 31.875rem;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 34.375%, #e6e6e6 34.375%, #e6e6e6 100%);
+  display: flex;
+  align-items: center;
+}
+.text .text-cont {
+  width: 73.125rem;
+  height: 23.125rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.text .text-cont .text-img {
+  display: flex;
+}
+.text .text-cont .text-text {
+  margin-left: 100px;
+  width: 31.25rem;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.text .text-cont .text-text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+  margin: 0;
+}
+.text .text-cont .text-text h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #E27D60;
+}
+.text .text-cont .text-text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text .text-cont .text-text a {
+  text-decoration: none;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
+}
+.text .text-cont .text-text-v2 {
+  height: 20.125rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
