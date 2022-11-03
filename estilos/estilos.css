@@ -728,4 +728,84 @@ header .nav-header ul li a img {
   height: 20.125rem;
 }
 
+.text-v2 {
+  width: 1170px;
+  height: 842px;
+  margin: 0 auto;
+}
+.text-v2 .text-v2-bloq1 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #E27D60;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
+}
+.text-v2 .text-v2-bloq2 .text-v2-text2 {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text-v2 .text-v2-bloq2 .text-v2-text2 p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq3 {
+  width: 175px;
+  margin: 0 auto;
+}
+.text-v2 .text-v2-bloq3 a {
+  text-decoration: none;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
+}
+
 /*# sourceMappingURL=estilos.css.map */
