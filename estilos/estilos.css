@@ -70,17 +70,32 @@ footer li {
 .container2 .Dp {
   width: 32%;
 }
+.container2 .Dp .light {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 .container2 .Dp .Nwt {
   font-family: "Libre Franklin";
+  font-style: normal;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 0 auto;
+  font-size: 36px;
+  line-height: 44px;
 }
 .container2 .Dp p {
   font-family: "Work Sans";
-  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px auto;
 }
-.container2 .Dp p span {
+.container2 .Dp span {
   color: #E27D60;
 }
 
@@ -409,7 +424,7 @@ header .nav-header ul li a img {
   position: absolute;
   left: 96px;
 }
-.container2 .Dp2 h3 {
+.container2 .Dp2 .light {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
