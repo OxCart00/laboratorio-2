@@ -48,7 +48,7 @@ footer li {
 .newsseller_Container {
   position: relative;
 }
-.newsseller_Container div {
+.newsseller_Container .ouroffer-img {
   height: 275px;
 }
 .newsseller_Container div img {
@@ -858,6 +858,13 @@ header .nav-header ul li a img {
   gap: 1.25rem;
   display: flex;
   flex-wrap: wrap;
+}
+
+.ouroffer {
+  height: 325px;
+}
+.ouroffer .ouroffer-img {
+  height: 325px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
