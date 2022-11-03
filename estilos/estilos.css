@@ -650,4 +650,12 @@ header .nav-header ul li a img {
   margin-left: 23.25rem;
 }
 
+.img_partners {
+  width: 73.125rem;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 /*# sourceMappingURL=estilos.css.map */
