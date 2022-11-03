@@ -72,23 +72,40 @@ footer li {
 .container2 .Dp {
   width: 32%;
 }
+.container2 .Dp .light {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 .container2 .Dp .Nwt {
   font-family: "Libre Franklin";
+  font-style: normal;
   font-weight: 700;
-  font-size: 2.25rem;
-  margin: 0 auto;
+  font-size: 36px;
+  line-height: 44px;
 }
 .container2 .Dp p {
   font-family: "Work Sans";
-  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px auto;
 }
-.container2 .Dp p span {
+.container2 .Dp span {
   color: #E27D60;
 }
 
 .email_i {
   height: 2.625rem;
   width: 35.625rem;
+  padding: 0;
+  border: none;
   margin-left: 0.3125rem;
 }
 
@@ -806,6 +823,41 @@ header .nav-header ul li a img {
   padding: 0.625rem 2.25rem 0.625rem 2.25rem;
   border-radius: 0.1875rem;
   border: #303030;
+}
+
+.container2 .Dp2 {
+  width: 370px;
+  height: 135px;
+  position: absolute;
+  left: 96px;
+}
+.container2 .Dp2 .light {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctn_lk {
+  width: 65rem;
+  height: 11.625rem;
+}
+
+.input_colum {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 37.3125rem;
+  gap: 2.5rem;
+}
+.input_colum .ip {
+  gap: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=estilos.css.map */
