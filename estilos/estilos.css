@@ -620,7 +620,7 @@ header .nav-header ul li a img {
 
 .our_servs_text_whit {
   background-color: white;
-  border: solid #d0ceceaa 0.1875rem;
+  border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
   border-radius: 0.1875rem;
   padding: 1.75rem;
   font-family: "Work Sans", sans-serif;
@@ -842,38 +842,6 @@ header .nav-header ul li a img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.aks_container {
-  margin-top: 6.25rem;
-  position: relative;
-  width: 120rem;
-  height: 37.5rem;
-}
-.aks_container .ask_text {
-  position: absolute;
-  width: 66.9375rem;
-  height: 25rem;
-  margin: 0 auto;
-  left: 23.4375rem;
-  top: 6.25rem;
-}
-.aks_container .ask_text .just_text {
-  position: absolute;
-  width: 37.5625rem;
-  height: 16rem;
-  top: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.aks_container .ask_text .just_text h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 
 .ctn_lk {
   width: 65rem;
@@ -939,6 +907,41 @@ header .nav-header ul li a img {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: white;
+}
+
+.aks_container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 120rem;
+  height: 37.5rem;
+}
+.aks_container .ask_text {
+  position: absolute;
+  width: 66.9375rem;
+  height: 25rem;
+  margin: 0 auto;
+  left: 23.4375rem;
+  top: 6.25rem;
+}
+.aks_container .ask_text .just_text {
+  position: absolute;
+  width: 37.5625rem;
+  height: 16rem;
+  top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aks_container .ask_text .just_text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
 }
 .aks_container .ask_text .just_text h2 {
   font-family: "Libre Franklin";
@@ -1006,4 +1009,188 @@ header .nav-header ul li a img {
 .n1 {
   color: #E27D60;
 }
+
+.big-div {
+  width: 1170px;
+  height: 1635px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.big-div p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #303030;
+}
+
+.article-img {
+  width: 670px;
+  height: 368px;
+  position: relative;
+  right: 5px;
+}
+
+.article-div {
+  display: flex;
+  width: 470px;
+  height: 399px;
+  float: right;
+  flex-direction: column;
+}
+
+.article-div3 {
+  margin-top: 118px;
+  margin-left: 200px;
+}
+
+.article-content {
+  width: 770px;
+  height: 115px;
+  border: 1px solid #FAEEE5;
+  background-color: #FAEEE5;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+  margin-top: 26px;
+}
+
+.article-customer {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.article-text2 {
+  margin-top: 50px;
+}
+
+.product-toolbar {
+  width: 1920px;
+  height: 77px;
+  background-color: #E27D60;
+  position: relative;
+  top: -18px;
+}
+
+.lupita {
+  position: absolute;
+  top: 25px;
+  right: 380px;
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  gap: 25px;
+  position: relative;
+  top: 7px;
+  right: 135px;
+}
+
+.product-list a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.02em;
+}
+
+.product-div {
+  width: 1170px;
+  height: 742px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.product-p {
+  margin-bottom: 0.625rem;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  color: #303030;
+}
+
+.product-h2 {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
+  color: #E27D60;
+}
+
+.product-list2 {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.big-div2 {
+  width: 1170px;
+  height: 738px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.article-headlines {
+  text-align: center;
+}
+
+.article-posts {
+  display: flex;
+  gap: 31px;
+}
+
+.article-article {
+  width: 369px;
+  height: 466px;
+  border: 2px #E6E6E6 solid;
+}
+
+.article-article a {
+  color: black;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.article-img2 {
+  width: 369px;
+  height: 250px;
+}
+
+.article-h4 {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  color: #E27D60;
+}
+
+.article-p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+.article-box {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
