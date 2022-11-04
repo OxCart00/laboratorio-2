@@ -1,0 +1,34 @@
+
+$color-naranja-oscuro: #E27D60;
+$color-morado: #8855DD;
+$color-naranja-claro: #E8A87C;
+$color-rosa: #C38D9E;
+$color-turqueza: #41B3A3;;
+$color-beige: #e6e6e6;
+$color-negro: #303030;
+$color-blanco: #ffffff;
+
+body{
+  width: 120rem;
+  margin: 0 auto;
+}
+
+@import "footer";
+@import "Newsseller";
+@import "header";
+@import "ourteam";
+@import "headline";
+@import "giveusavisit";
+@import "Trataments";
+@import "landing";
+@import "our_services";
+@import "img_partners";
+@import "text";
+@import "textv2";
+@import "ouroffter"; 
+@import "servs_discount";
+@import "ask_ous";
+@import "article";
+@import "toolbar";
+@import "other_products";
+@import "article_post"; 
