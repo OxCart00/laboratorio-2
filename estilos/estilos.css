@@ -602,7 +602,7 @@ header .nav-header ul li a img {
 
 .our_servs_text_whit {
   background-color: white;
-  border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
+  border: solid #d0ceceaa 0.1875rem;
   border-radius: 0.1875rem;
   padding: 1.75rem;
   font-family: "Work Sans", sans-serif;
@@ -726,6 +726,107 @@ header .nav-header ul li a img {
 }
 .text .text-cont .text-text-v2 {
   height: 20.125rem;
+}
+
+.aks_container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 120rem;
+  height: 37.5rem;
+}
+.aks_container .ask_text {
+  position: absolute;
+  width: 66.9375rem;
+  height: 25rem;
+  margin: 0 auto;
+  left: 23.4375rem;
+  top: 6.25rem;
+}
+.aks_container .ask_text .just_text {
+  position: absolute;
+  width: 37.5625rem;
+  height: 16rem;
+  top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aks_container .ask_text .just_text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+}
+.aks_container .ask_text .just_text h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #ffffff;
+}
+.aks_container .ask_text .just_text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  margin: 0;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.aks_container .ask_text .forpos {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  width: 21.25rem;
+  height: 25rem;
+  padding-left: 1.875rem;
+  left: 700px;
+}
+
+.emi {
+  width: 310px;
+  height: 42px;
+}
+
+.subs2 {
+  height: 2.625rem;
+  width: 10.625rem;
+  color: #ffffff;
+  background-color: #303030;
+  font-size: 18px;
+  border: none;
+}
+
+.ti_cont {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.check {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.n1 {
+  color: #E27D60;
 }
 
 /*# sourceMappingURL=estilos.css.map */
