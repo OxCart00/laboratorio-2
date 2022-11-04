@@ -620,7 +620,7 @@ header .nav-header ul li a img {
 
 .our_servs_text_whit {
   background-color: white;
-  border: solid #d0ceceaa 0.1875rem;
+  border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
   border-radius: 0.1875rem;
   padding: 1.75rem;
   font-family: "Work Sans", sans-serif;
@@ -842,38 +842,6 @@ header .nav-header ul li a img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.aks_container {
-  margin-top: 6.25rem;
-  position: relative;
-  width: 120rem;
-  height: 37.5rem;
-}
-.aks_container .ask_text {
-  position: absolute;
-  width: 66.9375rem;
-  height: 25rem;
-  margin: 0 auto;
-  left: 23.4375rem;
-  top: 6.25rem;
-}
-.aks_container .ask_text .just_text {
-  position: absolute;
-  width: 37.5625rem;
-  height: 16rem;
-  top: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.aks_container .ask_text .just_text h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 
 .ctn_lk {
   width: 65rem;
@@ -939,6 +907,41 @@ header .nav-header ul li a img {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: white;
+}
+
+.aks_container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 120rem;
+  height: 37.5rem;
+}
+.aks_container .ask_text {
+  position: absolute;
+  width: 66.9375rem;
+  height: 25rem;
+  margin: 0 auto;
+  left: 23.4375rem;
+  top: 6.25rem;
+}
+.aks_container .ask_text .just_text {
+  position: absolute;
+  width: 37.5625rem;
+  height: 16rem;
+  top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aks_container .ask_text .just_text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
 }
 .aks_container .ask_text .just_text h2 {
   font-family: "Libre Franklin";
@@ -1006,4 +1009,92 @@ header .nav-header ul li a img {
 .n1 {
   color: #E27D60;
 }
+
+.blog_landing {
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+.blog_landing h2 {
+  font-size: 2.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  color: #E27D60;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+}
+.blog_landing .blog_landing_p {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.6;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+.blog_landing .blog_landing_img {
+  margin-top: 2.5rem;
+}
+
+.blog_landing_options {
+  display: flex;
+  gap: 1.25rem;
+}
+.blog_landing_options h3 {
+  font-size: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  color: #E27D60;
+  margin: 0;
+}
+
+.blog_landing_types {
+  border: solid 0.1875rem rgba(218, 217, 217, 0.8901960784);
+  border-radius: 0.1875rem;
+}
+.blog_landing_types .blog_landing_types_img2 {
+  position: relative;
+  bottom: 1.25rem;
+}
+
+.blog_landing_types_text {
+  text-align: left;
+  padding-left: 1.625rem;
+  position: relative;
+  bottom: 1.875rem;
+}
+
+.blog_landing_types_text_year {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  margin-top: 0.625rem;
+}
+.blog_landing_types_text_year .blog_landing_types_text_year_2 {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.6;
+  font-size: 0.625rem;
+}
+
+.blog_landing_types_text_year img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+.blog_landing_types_text_read_more {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  font-size: 1.125rem;
+  font-family: "Libre Franklin", bold;
+  color: #303030;
+  text-decoration: underline;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.blog_landing_types_text_read_more img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
