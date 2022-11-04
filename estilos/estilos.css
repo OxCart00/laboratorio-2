@@ -860,4 +860,70 @@ header .nav-header ul li a img {
   flex-wrap: wrap;
 }
 
+.shop_landing {
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6.25rem;
+}
+.shop_landing h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
+  color: #E27D60;
+}
+
+.shop_landing_text_sub_title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: #303030;
+  opacity: 0.7;
+}
+
+.shop_landing_text_down {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  color: #303030;
+  opacity: 0.6;
+  width: 51.875rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.shop_landing_text {
+  margin-bottom: 2.5rem;
+}
+
+.shop_products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar_shop_products {
+  position: relative;
+  bottom: 1.375rem;
+}
+
+.shop_products_text {
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+.shop_products_text h3 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #303030;
+  font-size: 1.25rem;
+}
+
+.shop_products_text_up {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.625rem;
+  color: #303030;
+  opacity: 0.5;
+}
+
+.shop_products_text_price {
+  font-family: "Libre Franklin", bold;
+  color: #E27D60;
+  font-size: 1rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
