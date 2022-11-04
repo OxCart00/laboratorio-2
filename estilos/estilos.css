@@ -1215,4 +1215,195 @@ header .nav-header ul li a img {
   font-size: 1rem;
 }
 
+.big-div3 {
+  width: 1170px;
+  height: 1201px;
+  margin: 0px auto;
+}
+
+.product-lotion {
+  width: 570px;
+  height: 570px;
+  margin-top: 101px;
+}
+
+.product-text {
+  width: 509px;
+  height: 570px;
+  position: absolute;
+  top: 400px;
+  left: 1000px;
+}
+
+.product-h3 h3 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.product-h3 p {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.product-button {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  background-color: #E27D60;
+  width: 130px;
+  height: 30px;
+  color: white;
+  border: none;
+}
+
+.product-bar {
+  margin-left: 245px;
+}
+
+.product-cantidad {
+  margin-top: 40px;
+}
+
+.product-text2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 30px;
+}
+
+.product-media {
+  margin-top: 30px;
+}
+
+.product-box {
+  position: absolute;
+  top: 560px;
+  width: 500px;
+  height: 42px;
+  left: -10px;
+  color: #ffffff;
+  background-color: #303030;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.product-text3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.product-h {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #E27D60;
+}
+
+.product-flex {
+  display: flex;
+  gap: 20px;
+}
+
+.product-review {
+  width: 570px;
+  height: 216px;
+}
+
+.product-div4 {
+  text-align: center;
+  width: 570px;
+  height: 156px;
+  border: #E6E6E6 2px solid;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.product-div4 p {
+  margin: 30px;
+}
+
+.product-h6-1 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #E27D60;
+  display: inline;
+}
+
+.product-h6-2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+#alex {
+  position: absolute;
+  right: 480px;
+}
+
+#melissa {
+  position: absolute;
+  left: 1030px;
+  bottom: -310px;
+}
+
+.product-toolbar {
+  width: 1920px;
+  height: 77px;
+  background-color: #E27D60;
+  position: relative;
+  top: -18px;
+}
+
+.lupita {
+  position: absolute;
+  top: 25px;
+  right: 380px;
+}
+
+.product-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  gap: 25px;
+  position: relative;
+  top: 7px;
+  right: 135px;
+}
+
+.product-list a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 0.02em;
+}
+
 /*# sourceMappingURL=estilos.css.map */
