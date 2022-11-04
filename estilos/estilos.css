@@ -620,7 +620,7 @@ header .nav-header ul li a img {
 
 .our_servs_text_whit {
   background-color: white;
-  border: solid #d0ceceaa 0.1875rem;
+  border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
   border-radius: 0.1875rem;
   padding: 1.75rem;
   font-family: "Work Sans", sans-serif;
@@ -842,38 +842,6 @@ header .nav-header ul li a img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.aks_container {
-  margin-top: 6.25rem;
-  position: relative;
-  width: 120rem;
-  height: 37.5rem;
-}
-.aks_container .ask_text {
-  position: absolute;
-  width: 66.9375rem;
-  height: 25rem;
-  margin: 0 auto;
-  left: 23.4375rem;
-  top: 6.25rem;
-}
-.aks_container .ask_text .just_text {
-  position: absolute;
-  width: 37.5625rem;
-  height: 16rem;
-  top: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.aks_container .ask_text .just_text h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 
 .ctn_lk {
   width: 65rem;
@@ -939,6 +907,41 @@ header .nav-header ul li a img {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: white;
+}
+
+.aks_container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 120rem;
+  height: 37.5rem;
+}
+.aks_container .ask_text {
+  position: absolute;
+  width: 66.9375rem;
+  height: 25rem;
+  margin: 0 auto;
+  left: 23.4375rem;
+  top: 6.25rem;
+}
+.aks_container .ask_text .just_text {
+  position: absolute;
+  width: 37.5625rem;
+  height: 16rem;
+  top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aks_container .ask_text .just_text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
 }
 .aks_container .ask_text .just_text h2 {
   font-family: "Libre Franklin";
@@ -1006,4 +1009,57 @@ header .nav-header ul li a img {
 .n1 {
   color: #E27D60;
 }
+
+.pricing_landing {
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 6.25rem;
+}
+.pricing_landing .pricing_landing_sub_title {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  font-size: 1rem;
+}
+.pricing_landing h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
+  color: #E27D60;
+}
+
+.pricing_landing_prices {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.pricing_landing_prices_1 .pricing_landing_prices_title {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.25rem;
+  color: #303030;
+}
+.pricing_landing_prices_1 span {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.25rem;
+  color: #E27D60;
+}
+.pricing_landing_prices_1 .pricing_landing_prices_description {
+  text-align: left;
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.5;
+  font-size: 0.75rem;
+}
+
+.pricing_landing_button {
+  color: white;
+  background-color: #303030;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  border-radius: 0.1875rem;
+  border-style: none;
+  margin-top: 2.5rem;
+}
+
 /*# sourceMappingURL=estilos.css.map */
