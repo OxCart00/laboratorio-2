@@ -1,0 +1,37 @@
+
+$color-naranja-oscuro: #E27D60;
+$color-morado: #8855DD;
+$color-naranja-claro: #E8A87C;
+$color-rosa: #C38D9E;
+$color-turqueza: #41B3A3;;
+$color-beige: #e6e6e6;
+$color-negro: #303030;
+$color-blanco: #ffffff;
+
+body{
+  width: 120rem;
+  margin: 0 auto;
+}
+@import "article";
+@import "article-post";
+@import "ask-us";
+@import "blog-landing";
+@import "footer";
+@import "give-us-a-visit";
+@import "header";
+@import "headline";
+@import "img-partners";
+@import "landing";
+@import "news-seller";
+@import "other-products";
+@import "our-offer"; 
+@import "our-services";
+@import "our-team";
+@import "pricing-landing";
+@import "product-lotion";
+@import "servs-discount";
+@import "shop-landing";
+@import "text";
+@import "text-v2";
+@import "toolbar";
+@import "trataments";
