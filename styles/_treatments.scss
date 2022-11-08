@@ -1,20 +1,22 @@
-.trataments {
-  .trataments_container {
+.treatments {
+  .treatments-container {
     width: 73.125rem;
     margin: 6.25rem auto;
 
-    .trataments_titles {
+    .treatments-titles {
       text-align: center;
-      margin-bottom: 1.9375rem; 
-      .tratmens_T {
-        font-family:'Libre Franklin';
+      margin-bottom: 1.9375rem;
+
+      .treatmens-t {
+        font-family: 'Libre Franklin';
         font-size: 2.25rem;
         font-weight: 700;
         letter-spacing: 0.02em;
         color: #E27D60;
         margin: 0 auto;
       }
-      .tratmens_P {
+
+      .treatmens-p {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 300;
@@ -27,7 +29,7 @@
   }
 }
 
-.trataments_images{
+.treatments-images {
   display: flex;
   justify-content: space-between;
 }

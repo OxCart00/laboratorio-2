@@ -1,16 +1,19 @@
-.text-v2{
+.text-v2 {
   width: 1170px;
   height: 842px;
   margin: 0 auto;
-  .text-v2-bloq1{
+
+  .text-v2-bloq1 {
     display: flex;
     margin-bottom: 40px;
-    .text-v2-text1{
+
+    .text-v2-text1 {
       margin-left: 100px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      h3{
+
+      h3 {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 300;
@@ -21,7 +24,8 @@
         margin: 0;
         color: $color-negro;
       }
-      h2{
+
+      h2 {
         font-family: 'Libre Franklin';
         font-style: normal;
         font-weight: 700;
@@ -31,7 +35,8 @@
         margin: 0;
         color: $color-naranja-oscuro;
       }
-      p{
+
+      p {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 400;
@@ -42,16 +47,19 @@
       }
     }
   }
-  .text-v2-bloq2{
+
+  .text-v2-bloq2 {
     display: flex;
     flex-direction: row-reverse;
     margin-bottom: 40px;
-    .text-v2-text2{
+
+    .text-v2-text2 {
       margin-right: 100px;
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
-      p{
+
+      p {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 400;
@@ -62,10 +70,12 @@
       }
     }
   }
-  .text-v2-bloq3{
+
+  .text-v2-bloq3 {
     width: 175px;
     margin: 0 auto;
-    a{
+
+    a {
       text-decoration: none;
       background-color: #303030;
       color: white;

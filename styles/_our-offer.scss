@@ -1,5 +1,5 @@
 .container2 {
-  .Dp2 {
+  .dp2 {
     width: 370px;
     height: 135px;
     position: absolute;
@@ -18,12 +18,12 @@
   }
 }
 
-.ctn_lk {
+.ctn-lk {
   width: 65rem;
   height: 11.625rem;
 }
 
-.input_colum {
+.input-colum {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -36,9 +36,11 @@
     flex-wrap: wrap;
   }
 }
-.ouroffer{
+
+.our-offer {
   height: 325px;
-  .ouroffer-img{
+
+  .our-offer-img {
     height: 325px;
   }
 }

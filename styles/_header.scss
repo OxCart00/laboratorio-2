@@ -1,21 +1,25 @@
-header{
+header {
   display: flex;
   height: 6.5rem;
   width: 73.125rem;
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  img{
+
+  img {
     width: 6.1875rem;
     height: 1.25rem;
   }
-  .main-nav{
-    ul{
+
+  .main-nav {
+    ul {
       list-style: none;
       display: flex;
-      li{
+
+      li {
         padding: 0 .9375rem;
-        a{
+
+        a {
           display: flex;
           align-items: center;
           text-decoration: none;
@@ -26,10 +30,12 @@ header{
           font-size: 1rem;
           line-height: 1.1875rem;
           letter-spacing: 0.02rem;
-          &:hover{
+
+          &:hover {
             color: $color-naranja-oscuro;
           }
-          img{
+
+          img {
             width: 1.1875rem;
             height: 1.1875rem;
           }
@@ -37,16 +43,20 @@ header{
       }
     }
   }
-  .nav-header{
-    ul{
+
+  .nav-header {
+    ul {
       list-style: none;
       display: flex;
-      li{
+
+      li {
         padding: 0 .625rem;
-        a{
+
+        a {
           display: flex;
           align-items: center;
-          img{
+
+          img {
             width: 1.5rem;
             height: 1.5rem;
           }

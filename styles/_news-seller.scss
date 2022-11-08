@@ -1,6 +1,7 @@
-.newsseller_Container {
+.news-seller-container {
   position: relative;
-  .ouroffer-img{
+
+  .our-offer-img {
     height: 275px;
   }
 
@@ -8,6 +9,7 @@
     img {
       position: relative;
     }
+
     p {
       color: $color-blanco;
     }
@@ -25,7 +27,7 @@
   justify-content: space-between;
   margin: 0 auto;
 
-  .Dp {
+  .dp {
     width: 32%;
 
     .light {
@@ -39,7 +41,7 @@
       text-transform: uppercase;
     }
 
-    .Nwt {
+    .nwt {
       font-family: 'Libre Franklin';
       font-style: normal;
       font-weight: 700;
@@ -62,7 +64,7 @@
   }
 }
 
-.email_i {
+.email-i {
   height: 2.625rem;
   width: 35.625rem;
   padding: 0;
@@ -70,18 +72,18 @@
   margin-left: .3125rem;
 }
 
-.email_i::placeholder {
+.email-i::placeholder {
   font-size: 1.125rem;
   color: #303030;
   opacity: 0.3;
 }
 
-.subs{
-    height: 2.625rem;
-    width: 10.625rem;
-    margin-left: .625rem;
-    color: $color-blanco;
-    background-color:$color-negro;
-    font-size: 18px;
-    border: none;
+.subs {
+  height: 2.625rem;
+  width: 10.625rem;
+  margin-left: .625rem;
+  color: $color-blanco;
+  background-color: $color-negro;
+  font-size: 18px;
+  border: none;
 }

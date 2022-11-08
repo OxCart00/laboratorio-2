@@ -677,16 +677,16 @@ header .nav-header ul li a img {
   text-align: center;
 }
 
-.newsseller_Container {
+.news-seller-container {
   position: relative;
 }
-.newsseller_Container .ouroffer-img {
+.news-seller-container .our-offer-img {
   height: 275px;
 }
-.newsseller_Container div img {
+.news-seller-container div img {
   position: relative;
 }
-.newsseller_Container div p {
+.news-seller-container div p {
   color: #ffffff;
 }
 
@@ -701,10 +701,10 @@ header .nav-header ul li a img {
   justify-content: space-between;
   margin: 0 auto;
 }
-.container2 .Dp {
+.container2 .dp {
   width: 32%;
 }
-.container2 .Dp .light {
+.container2 .dp .light {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
@@ -714,14 +714,14 @@ header .nav-header ul li a img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.container2 .Dp .Nwt {
+.container2 .dp .nwt {
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
 }
-.container2 .Dp p {
+.container2 .dp p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -729,11 +729,11 @@ header .nav-header ul li a img {
   line-height: 21px;
   margin: 20px auto;
 }
-.container2 .Dp span {
+.container2 .dp span {
   color: #E27D60;
 }
 
-.email_i {
+.email-i {
   height: 2.625rem;
   width: 35.625rem;
   padding: 0;
@@ -741,7 +741,7 @@ header .nav-header ul li a img {
   margin-left: 0.3125rem;
 }
 
-.email_i::placeholder {
+.email-i::placeholder {
   font-size: 1.125rem;
   color: #303030;
   opacity: 0.3;
@@ -786,13 +786,13 @@ header .nav-header ul li a img {
   margin-top: 50px;
 }
 
-.container2 .Dp2 {
+.container2 .dp2 {
   width: 370px;
   height: 135px;
   position: absolute;
   left: 96px;
 }
-.container2 .Dp2 .light {
+.container2 .dp2 .light {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
@@ -803,32 +803,32 @@ header .nav-header ul li a img {
   text-transform: uppercase;
 }
 
-.ctn_lk {
+.ctn-lk {
   width: 65rem;
   height: 11.625rem;
 }
 
-.input_colum {
+.input-colum {
   display: flex;
   flex-direction: column;
   position: absolute;
   left: 37.3125rem;
   gap: 2.5rem;
 }
-.input_colum .ip {
+.input-colum .ip {
   gap: 1.25rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.ouroffer {
+.our-offer {
   height: 325px;
 }
-.ouroffer .ouroffer-img {
+.our-offer .our-offer-img {
   height: 325px;
 }
 
-.our_services {
+.our-services {
   background-color: #E6E6E6;
   height: 48.875rem;
   width: 120rem;
@@ -838,7 +838,7 @@ header .nav-header ul li a img {
   margin-top: 6.25rem;
 }
 
-.our_servs_up {
+.our-servs-up {
   display: flex;
   padding-top: 6.25rem;
   padding-bottom: 3.75rem;
@@ -847,39 +847,39 @@ header .nav-header ul li a img {
   gap: 1.875rem;
 }
 
-.our_servs_up_img {
+.our-servs-up-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: end;
 }
 
-.our_servs_up_img_text_our_reviews {
+.our-servs-up-img-text-our-reviews {
   font-family: "Work Sans", sans-serif, light;
   font-size: 1rem;
   color: #303030;
   margin-bottom: 0.625rem;
 }
 
-.our_servs_up_img_text {
+.our-servs-up-img-text {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: #303030;
 }
 
-.our_servs_up_img h2 {
+.our-servs-up-img h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 2.25rem;
   color: #E27D60;
   margin: 0;
 }
 
-.our_servs_up img {
+.our-servs-up img {
   height: 17.5rem;
   width: 35.625rem;
 }
 
-.our_servs_comments {
+.our-servs-comments {
   display: flex;
   width: 73.125rem;
   height: 11.5rem;
@@ -887,7 +887,7 @@ header .nav-header ul li a img {
   gap: 1.875rem;
 }
 
-.our_servs_text_whit {
+.our-servs-text-whit {
   background-color: white;
   border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
   border-radius: 0.1875rem;
@@ -897,25 +897,25 @@ header .nav-header ul li a img {
   color: #303030;
 }
 
-.our_servs_text_down_img {
+.our-servs-text-down-img {
   display: flex;
   align-items: center;
   gap: 1.25rem;
 }
 
-.our_servs_text_down_img img {
+.our-servs-text-down-img img {
   width: 3.125rem;
   height: 3.125rem;
 }
 
-.our_servs_text_down_img_name h3 {
+.our-servs-text-down-img-name h3 {
   margin-bottom: 0.5625rem;
   font-family: "Libre Franklin", sans-serif;
   font-size: 0.875rem;
   color: #E27D60;
 }
 
-.our_servs_text_down_img_name p {
+.our-servs-text-down-img-name p {
   margin-top: 0;
   font-family: "Work Sans", sans-serif, light;
   font-size: 0.75rem;
@@ -923,7 +923,7 @@ header .nav-header ul li a img {
   opacity: 0.5;
 }
 
-.our_servs_img {
+.our-servs-img {
   width: 73.125rem;
   margin: 0 auto;
   display: flex;
@@ -932,51 +932,51 @@ header .nav-header ul li a img {
   margin-left: 30.125rem;
 }
 
-.our_servs_img img {
+.our-servs-img img {
   margin-top: 2.5rem;
   margin-left: 23.25rem;
 }
 
-.our_team_people li {
+.our-team-people li {
   list-style: none;
 }
 
-.our_team {
+.our-team {
   width: 73.125rem;
   margin: 0 auto;
   margin-bottom: 100px;
 }
 
-.our_team h3 {
+.our-team h3 {
   font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
   margin-bottom: 0.9375rem;
 }
 
-.our_team p {
+.our-team p {
   font-family: "Work Sans", sans-serif;
   color: #303030;
   opacity: 0.5;
 }
 
-.our_team img {
+.our-team img {
   width: 16.875rem;
   height: 22rem;
 }
 
-.our_team_title {
+.our-team-title {
   text-align: center;
   margin: 0 auto;
 }
 
-.sub_up {
+.sub-up {
   margin-bottom: 0.625rem;
   font-family: "Work Sans";
   font-size: 1rem;
   color: #303030;
 }
 
-.sub_down {
+.sub-down {
   margin-bottom: 1.25rem;
   gap: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
@@ -984,35 +984,35 @@ header .nav-header ul li a img {
   color: #E27D60;
 }
 
-.sub_down_2 {
+.sub-down-2 {
   margin-bottom: 2.5rem;
   font-size: 1.125rem;
 }
 
-.our_team_people ul {
+.our-team-people ul {
   padding: 0;
 }
 
-.our_team_people li {
+.our-team-people li {
   list-style: none;
 }
 
-.our_team_people_row1 {
+.our-team-people-row1 {
   display: flex;
   gap: 1.875rem;
   margin-bottom: 2.125rem;
 }
 
-.our_team_people_row2 {
+.our-team-people-row2 {
   display: flex;
   gap: 1.875rem;
 }
 
-.our_team_people_text {
+.our-team-people-text {
   margin-left: 1.25rem;
 }
 
-.show_more {
+.show-more {
   margin: 0 31.25rem;
   margin-top: 1.25rem;
   background-color: #303030;
@@ -1093,7 +1093,7 @@ header .nav-header ul li a img {
   height: 570px;
   position: absolute;
   top: 400px;
-  left: 1000px;
+  left: 1320px;
 }
 
 .product-h3 h3 {
@@ -1233,11 +1233,11 @@ header .nav-header ul li a img {
   bottom: -310px;
 }
 
-.servs_discount {
+.servs-discount {
   width: 120rem;
 }
 
-.servs_discount_text {
+.servs-discount-text {
   z-index: 2;
   width: 56.875rem;
   height: 9.375rem;
@@ -1248,52 +1248,52 @@ header .nav-header ul li a img {
   bottom: 15.625rem;
   gap: 10.1875rem;
 }
-.servs_discount_text p {
+.servs-discount-text p {
   font-family: "Libre Franklin", sans-serif;
   font-size: 4rem;
   color: white;
 }
 
-.servs_discount_text_title {
+.servs-discount-text-title {
   display: flex;
   flex-direction: column;
   width: 36.4375rem;
 }
-.servs_discount_text_title h2 {
+.servs-discount-text-title h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 4rem;
   color: white;
   margin: 0;
 }
-.servs_discount_text_title span {
+.servs-discount-text-title span {
   color: #E27D60;
 }
-.servs_discount_text_title p {
+.servs-discount-text-title p {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: white;
 }
 
-.shop_landing {
+.shop-landing {
   width: 73.125rem;
   margin: 0 auto;
   text-align: center;
   margin-top: 6.25rem;
 }
-.shop_landing h2 {
+.shop-landing h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 2.25rem;
   color: #E27D60;
 }
 
-.shop_landing_text_sub_title {
+.shop-landing-text-sub-title {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   color: #303030;
   opacity: 0.7;
 }
 
-.shop_landing_text_down {
+.shop-landing-text-down {
   font-family: "Work Sans", sans-serif;
   font-size: 1.125rem;
   color: #303030;
@@ -1303,38 +1303,38 @@ header .nav-header ul li a img {
   margin: 0 auto;
 }
 
-.shop_landing_text {
+.shop-landing-text {
   margin-bottom: 2.5rem;
 }
 
-.shop_products {
+.shop-products {
   display: flex;
   justify-content: space-between;
 }
 
-.bar_shop_products {
+.bar-shop-products {
   position: relative;
   bottom: 1.375rem;
 }
 
-.shop_products_text {
+.shop-products-text {
   text-align: left;
   margin-bottom: 2.5rem;
 }
-.shop_products_text h3 {
+.shop-products-text h3 {
   font-family: "Libre Franklin", sans-serif;
   color: #303030;
   font-size: 1.25rem;
 }
 
-.shop_products_text_up {
+.shop-products-text-up {
   font-family: "Work Sans", sans-serif;
   font-size: 0.625rem;
   color: #303030;
   opacity: 0.5;
 }
 
-.shop_products_text_price {
+.shop-products-text-price {
   font-family: "Libre Franklin", bold;
   color: #E27D60;
   font-size: 1rem;
@@ -1524,15 +1524,15 @@ header .nav-header ul li a img {
   letter-spacing: 0.02em;
 }
 
-.trataments .trataments_container {
+.treatments .treatments-container {
   width: 73.125rem;
   margin: 6.25rem auto;
 }
-.trataments .trataments_container .trataments_titles {
+.treatments .treatments-container .treatments-titles {
   text-align: center;
   margin-bottom: 1.9375rem;
 }
-.trataments .trataments_container .trataments_titles .tratmens_T {
+.treatments .treatments-container .treatments-titles .treatmens-t {
   font-family: "Libre Franklin";
   font-size: 2.25rem;
   font-weight: 700;
@@ -1540,7 +1540,7 @@ header .nav-header ul li a img {
   color: #E27D60;
   margin: 0 auto;
 }
-.trataments .trataments_container .trataments_titles .tratmens_P {
+.treatments .treatments-container .treatments-titles .treatmens-p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 300;
@@ -1550,7 +1550,7 @@ header .nav-header ul li a img {
   margin: 0.5rem auto;
 }
 
-.trataments_images {
+.treatments-images {
   display: flex;
   justify-content: space-between;
 }

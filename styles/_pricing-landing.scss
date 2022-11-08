@@ -1,53 +1,57 @@
 .pricing-landing {
-    width: 73.125rem;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 6.25rem;
-        .pricing-landing-sub-title {
-            font-family: 'Work Sans', sans-serif;
-            color: #303030;
-            font-size: 1rem;
-        }
-            h2 {
-            font-family: 'Libre Franklin', sans-serif;
-            font-size: 2.25rem;
-            color: #E27D60;
-            }
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 6.25rem;
+
+  .pricing-landing-sub-title {
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    font-size: 1rem;
+  }
+
+  h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.25rem;
+    color: #E27D60;
+  }
 }
 
 .pricing-landing-prices {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 .pricing-landing-prices-1 {
-        .pricing-landing-prices-title {
-            font-family: 'Libre Franklin', sans-serif;
-            font-size: 1.25rem;
-            color: #303030;
-        }
-            span {
-            font-family: 'Libre Franklin', sans-serif;
-            font-size: 1.25rem;
-            color: #E27D60;
-            }
-                .pricing-landing-prices-description {
-                    text-align: left;
-                    font-family: 'Work Sans', sans-serif;
-                    color: #303030;
-                    opacity: 0.5;
-                    font-size: .75rem;
-                }
+  .pricing-landing-prices-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25rem;
+    color: #303030;
+  }
+
+  span {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.25rem;
+    color: #E27D60;
+  }
+
+  .pricing-landing-prices-description {
+    text-align: left;
+    font-family: 'Work Sans', sans-serif;
+    color: #303030;
+    opacity: 0.5;
+    font-size: .75rem;
+  }
 }
 
 .pricing-landing-button {
-    color: white;
-    background-color: #303030;
-    padding: .625rem 2.25rem .625rem 2.25rem;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.125rem;
-    border-radius: .1875rem;
-    border-style: none;
-    margin-top: 2.5rem;
+  color: white;
+  background-color: #303030;
+  padding: .625rem 2.25rem .625rem 2.25rem;
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1.125rem;
+  border-radius: .1875rem;
+  border-style: none;
+  margin-top: 2.5rem;
 }

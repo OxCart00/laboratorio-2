@@ -1,16 +1,18 @@
-.aks-container{
+.aks-container {
   margin-top: 6.25rem;
   position: relative;
   width: 120rem;
   height: 37.5rem;
-  .ask-text{
+
+  .ask-text {
     position: absolute;
     width: 66.9375rem;
     height: 25rem;
     margin: 0 auto;
     left: 23.4375rem;
     top: 6.25rem;
-    .just-text{
+
+    .just-text {
       position: absolute;
       width: 37.5625rem;
       height: 16rem;
@@ -18,7 +20,8 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      h3{
+
+      h3 {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 300;
@@ -29,7 +32,8 @@
         margin: 0;
         color: $color-blanco;
       }
-      h2{
+
+      h2 {
         font-family: 'Libre Franklin';
         font-style: normal;
         font-weight: 700;
@@ -39,7 +43,8 @@
         margin: 0;
         color: $color-blanco;
       }
-      p{
+
+      p {
         font-family: 'Work Sans';
         font-style: normal;
         font-weight: 400;
@@ -50,7 +55,8 @@
         color: $color-blanco;
       }
     }
-    .forpos{
+
+    .forpos {
       background-color: #ffffff;
       display: flex;
       flex-wrap: wrap;
@@ -63,36 +69,38 @@
     }
   }
 }
-.emi{
+
+.emi {
   width: 310px;
   height: 42px;
 }
 
-.subs2{
+.subs2 {
   height: 2.625rem;
   width: 10.625rem;
-  color:$color-blanco;
+  color: $color-blanco;
   background-color: $color-negro;
   font-size: 18px;
   border: none;
 }
 
-.ti-cont{
+.ti-cont {
   font-family: 'Libre Franklin';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-letter-spacing: 0.02em;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
-.check{
+.check {
   font-family: 'Work Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
-  .n1{
-    color: $color-naranja-oscuro;
-    }
+
+.n1 {
+  color: $color-naranja-oscuro;
+}

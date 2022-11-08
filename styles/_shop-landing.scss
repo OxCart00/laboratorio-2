@@ -1,65 +1,67 @@
-.shop_landing {
-    width: 73.125rem;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 6.25rem;
-        h2 {
-            font-family: 'Libre Franklin', sans-serif;
-            font-size: 2.25rem;
-            color: #E27D60;
-        }
-}
+.shop-landing {
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6.25rem;
 
-.shop_landing_text_sub_title {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1rem;
-    color: #303030;
-    opacity: 0.7;
-}
-
-.shop_landing_text_down {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 1.125rem;
-    color: #303030;
-    opacity: 0.6;
-    width: 51.875rem;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.shop_landing_text {
-    margin-bottom: 2.5rem;
-}
-
-.shop_products {
-    display: flex;
-    justify-content: space-between;
-}
-
-.bar_shop_products {
-    position: relative;
-    bottom: 1.375rem;
-}
-
-.shop_products_text {
-    text-align: left;
-    margin-bottom: 2.5rem;
-        h3 {
-            font-family: 'Libre Franklin', sans-serif;
-            color: #303030;
-            font-size: 1.25rem;
-        }
-}
-
-.shop_products_text_up {
-    font-family: 'Work Sans', sans-serif;
-    font-size: .625rem;
-    color: #303030;
-    opacity: 0.5;
-}
-
-.shop_products_text_price {
-    font-family: 'Libre Franklin', bold;
+  h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 2.25rem;
     color: #E27D60;
-    font-size: 1rem;
+  }
+}
+
+.shop-landing-text-sub-title {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  color: #303030;
+  opacity: 0.7;
+}
+
+.shop-landing-text-down {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.125rem;
+  color: #303030;
+  opacity: 0.6;
+  width: 51.875rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.shop-landing-text {
+  margin-bottom: 2.5rem;
+}
+
+.shop-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-shop-products {
+  position: relative;
+  bottom: 1.375rem;
+}
+
+.shop-products-text {
+  text-align: left;
+  margin-bottom: 2.5rem;
+
+  h3 {
+    font-family: 'Libre Franklin', sans-serif;
+    color: #303030;
+    font-size: 1.25rem;
+  }
+}
+
+.shop-products-text-up {
+  font-family: 'Work Sans', sans-serif;
+  font-size: .625rem;
+  color: #303030;
+  opacity: 0.5;
+}
+
+.shop-products-text-price {
+  font-family: 'Libre Franklin', bold;
+  color: #E27D60;
+  font-size: 1rem;
 }

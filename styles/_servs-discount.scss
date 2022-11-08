@@ -1,40 +1,44 @@
-.servs_discount {
-    width: 120rem;
+.servs-discount {
+  width: 120rem;
 }
 
-.servs_discount_text {
-    z-index: 2;
-    width: 56.875rem;
-    height: 9.375rem;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    position: relative;
-    bottom: 15.625rem;
-    gap: 10.1875rem;
-        p {
-            font-family: 'Libre Franklin', sans-serif;
-            font-size: 4rem;
-            color: white;
-        }
+.servs-discount-text {
+  z-index: 2;
+  width: 56.875rem;
+  height: 9.375rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: relative;
+  bottom: 15.625rem;
+  gap: 10.1875rem;
+
+  p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 4rem;
+    color: white;
+  }
 }
 
-.servs_discount_text_title {
-    display: flex;
-    flex-direction: column;
-    width: 36.4375rem;
-        h2 {
-        font-family: 'Libre Franklin', sans-serif;
-        font-size: 4rem;
-        color: white;
-        margin: 0;
-        }
-            span {
-                color: #E27D60;
-            }
-                p {
-                    font-family: 'Work Sans', sans-serif;
-                    font-size: 1.125rem;
-                    color: white;
-                }
+.servs-discount-text-title {
+  display: flex;
+  flex-direction: column;
+  width: 36.4375rem;
+
+  h2 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+  }
+
+  span {
+    color: #E27D60;
+  }
+
+  p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.125rem;
+    color: white;
+  }
 }

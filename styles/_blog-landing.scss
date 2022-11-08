@@ -4,43 +4,48 @@
     text-align: center;
     margin-top: 6.25rem;
     margin-bottom: 6.25rem;
-        h2 {
-            font-size: 2.25rem;
-            font-family: 'Libre Franklin', sans-serif;
-            color: #E27D60;
-            margin-bottom: 2.5rem;
-            margin-top: 0;
-        }
-            .blog_landing_p {
-                font-family: 'Work Sans', sans-serif;
-                color: #303030;
-                opacity: 0.6;
-                font-size: 1rem;
-                margin-bottom: 1.25rem;
-            }
-                .blog_landing_img {
-                    margin-top: 2.5rem;
-                }
+
+    h2 {
+        font-size: 2.25rem;
+        font-family: 'Libre Franklin', sans-serif;
+        color: #E27D60;
+        margin-bottom: 2.5rem;
+        margin-top: 0;
+    }
+
+    .blog_landing_p {
+        font-family: 'Work Sans', sans-serif;
+        color: #303030;
+        opacity: 0.6;
+        font-size: 1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .blog_landing_img {
+        margin-top: 2.5rem;
+    }
 }
 
 .blog_landing_options {
     display: flex;
     gap: 1.25rem;
-        h3 {
-            font-size: 1.25rem;
-            font-family: 'Libre Franklin', sans-serif;
-            color: #E27D60;
-            margin: 0;
-        }
+
+    h3 {
+        font-size: 1.25rem;
+        font-family: 'Libre Franklin', sans-serif;
+        color: #E27D60;
+        margin: 0;
+    }
 }
 
 .blog_landing_types {
     border: solid .1875rem #dad9d9e3;
     border-radius: .1875rem;
-        .blog_landing_types_img2 {
-            position: relative;
-            bottom: 1.25rem ;
-        }
+
+    .blog_landing_types_img2 {
+        position: relative;
+        bottom: 1.25rem;
+    }
 }
 
 .blog_landing_types_text {
@@ -55,12 +60,13 @@
     align-items: center;
     gap: .3125rem;
     margin-top: .625rem;
-        .blog_landing_types_text_year_2 {
-            font-family: 'Work Sans', sans-serif;
-            color: #303030;
-            opacity: 0.6;
-            font-size: .625rem;
-        }
+
+    .blog_landing_types_text_year_2 {
+        font-family: 'Work Sans', sans-serif;
+        color: #303030;
+        opacity: 0.6;
+        font-size: .625rem;
+    }
 }
 
 .blog_landing_types_text_year img {
@@ -78,7 +84,7 @@
     text-decoration: underline;
     margin: 0;
     margin-top: .5rem;
-    
+
 }
 
 .blog_landing_types_text_read_more img {
