@@ -1,9 +1,9 @@
-.pricing_landing {
+.pricing-landing {
     width: 73.125rem;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 6.25rem;
-        .pricing_landing_sub_title {
+        .pricing-landing-sub-title {
             font-family: 'Work Sans', sans-serif;
             color: #303030;
             font-size: 1rem;
@@ -15,14 +15,14 @@
             }
 }
 
-.pricing_landing_prices {
+.pricing-landing-prices {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
 }
 
-.pricing_landing_prices_1 {
-        .pricing_landing_prices_title {
+.pricing-landing-prices-1 {
+        .pricing-landing-prices-title {
             font-family: 'Libre Franklin', sans-serif;
             font-size: 1.25rem;
             color: #303030;
@@ -32,7 +32,7 @@
             font-size: 1.25rem;
             color: #E27D60;
             }
-                .pricing_landing_prices_description {
+                .pricing-landing-prices-description {
                     text-align: left;
                     font-family: 'Work Sans', sans-serif;
                     color: #303030;
@@ -41,7 +41,7 @@
                 }
 }
 
-.pricing_landing_button {
+.pricing-landing-button {
     color: white;
     background-color: #303030;
     padding: .625rem 2.25rem .625rem 2.25rem;

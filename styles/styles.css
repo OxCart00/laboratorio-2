@@ -123,13 +123,13 @@ body {
   margin-right: 5px;
 }
 
-.aks_container {
+.aks-container {
   margin-top: 6.25rem;
   position: relative;
   width: 120rem;
   height: 37.5rem;
 }
-.aks_container .ask_text {
+.aks-container .ask-text {
   position: absolute;
   width: 66.9375rem;
   height: 25rem;
@@ -137,7 +137,7 @@ body {
   left: 23.4375rem;
   top: 6.25rem;
 }
-.aks_container .ask_text .just_text {
+.aks-container .ask-text .just-text {
   position: absolute;
   width: 37.5625rem;
   height: 16rem;
@@ -146,7 +146,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
-.aks_container .ask_text .just_text h3 {
+.aks-container .ask-text .just-text h3 {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 300;
@@ -157,7 +157,7 @@ body {
   margin: 0;
   color: #ffffff;
 }
-.aks_container .ask_text .just_text h2 {
+.aks-container .ask-text .just-text h2 {
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
@@ -167,7 +167,7 @@ body {
   margin: 0;
   color: #ffffff;
 }
-.aks_container .ask_text .just_text p {
+.aks-container .ask-text .just-text p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -177,7 +177,7 @@ body {
   opacity: 0.5;
   color: #ffffff;
 }
-.aks_container .ask_text .forpos {
+.aks-container .ask-text .forpos {
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
@@ -203,7 +203,7 @@ body {
   border: none;
 }
 
-.ti_cont {
+.ti-cont {
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
@@ -320,40 +320,40 @@ footer li {
   list-style: none;
 }
 
-.footer_Principal_Texto {
+.footer-main-text {
   color: #E27D60;
   margin: 0.625rem 0;
   padding: 1.875rem 0;
 }
 
-.footer_container {
+.footer-container {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 1.25rem;
   width: 73.125rem;
 }
-.footer_container .icon_social {
+.footer-container .icon-social {
   display: flex;
   align-items: center;
 }
-.footer_container img {
+.footer-container img {
   margin: 0.625rem;
 }
 
-.icon_flex {
+.icon-flex {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.icon_flex img {
+.icon-flex img {
   margin: 0.625rem 0px;
 }
 
-.icon_flex p {
+.icon-flex p {
   margin-left: 1.25rem;
 }
 
-.giveusavisit {
+.give-us-a-visit {
   margin: 6.25rem 0;
   background: linear-gradient(to left, #ffffff 0%, #ffffff 35%, #e6e6e6 35%, #e6e6e6 100%);
   height: 460px;
@@ -362,14 +362,14 @@ footer li {
   justify-content: center;
   align-items: center;
 }
-.giveusavisit .giveus-content {
+.give-us-a-visit .give-us-content {
   display: flex;
   width: 1170px;
   height: 340px;
   gap: 100px;
   align-items: center;
 }
-.giveusavisit .giveus-text {
+.give-us-a-visit .give-us-text {
   display: flex;
   flex-direction: column;
   height: 340px;
@@ -377,7 +377,7 @@ footer li {
   align-items: flex-end;
   gap: 0.0625rem;
 }
-.giveusavisit h3 {
+.give-us-a-visit h3 {
   text-align: right;
   margin: 0;
   font-family: "Work Sans";
@@ -389,7 +389,7 @@ footer li {
   text-transform: uppercase;
   color: #303030;
 }
-.giveusavisit h2 {
+.give-us-a-visit h2 {
   text-align: right;
   margin: 0;
   font-family: "Libre Franklin";
@@ -400,7 +400,7 @@ footer li {
   letter-spacing: 0.02em;
   color: #E27D60;
 }
-.giveusavisit p {
+.give-us-a-visit p {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
@@ -411,7 +411,7 @@ footer li {
   color: #303030;
   opacity: 0.8;
 }
-.giveusavisit .giveus-boton {
+.give-us-a-visit .give-us-boton {
   background-color: #303030;
   color: white;
   font-family: "Libre Franklin", sans-serif;
@@ -421,7 +421,7 @@ footer li {
   border: #303030;
 }
 
-.giveusavisitb {
+.give-us-a-visitb {
   margin: 6.25rem 0;
   background: linear-gradient(to left, #ffffff 0%, #ffffff 35%, #e6e6e6 35%, #e6e6e6 100%);
   height: 691px;
@@ -430,21 +430,21 @@ footer li {
   justify-content: center;
   align-items: center;
 }
-.giveusavisitb .giveus-text {
+.give-us-a-visitb .give-us-text {
   display: flex;
   flex-direction: column;
   height: 350px;
   justify-content: space-evenly;
   align-items: flex-end;
 }
-.giveusavisitb ul {
+.give-us-a-visitb ul {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
 }
-.giveusavisitb .giveus-img {
+.give-us-a-visitb .give-us-img {
   display: flex;
   flex-wrap: wrap;
   gap: 3px;
@@ -462,14 +462,14 @@ header img {
   width: 6.1875rem;
   height: 1.25rem;
 }
-header .nav-principal ul {
+header .main-nav ul {
   list-style: none;
   display: flex;
 }
-header .nav-principal ul li {
+header .main-nav ul li {
   padding: 0 0.9375rem;
 }
-header .nav-principal ul li a {
+header .main-nav ul li a {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -481,10 +481,10 @@ header .nav-principal ul li a {
   line-height: 1.1875rem;
   letter-spacing: 0.02rem;
 }
-header .nav-principal ul li a:hover {
+header .main-nav ul li a:hover {
   color: #E27D60;
 }
-header .nav-principal ul li a img {
+header .main-nav ul li a img {
   width: 1.1875rem;
   height: 1.1875rem;
 }
@@ -1024,40 +1024,40 @@ header .nav-header ul li a img {
   border: #303030;
 }
 
-.pricing_landing {
+.pricing-landing {
   width: 73.125rem;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 6.25rem;
 }
-.pricing_landing .pricing_landing_sub_title {
+.pricing-landing .pricing-landing-sub-title {
   font-family: "Work Sans", sans-serif;
   color: #303030;
   font-size: 1rem;
 }
-.pricing_landing h2 {
+.pricing-landing h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 2.25rem;
   color: #E27D60;
 }
 
-.pricing_landing_prices {
+.pricing-landing-prices {
   display: flex;
   justify-content: space-around;
   margin: 0 auto;
 }
 
-.pricing_landing_prices_1 .pricing_landing_prices_title {
+.pricing-landing-prices-1 .pricing-landing-prices-title {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.25rem;
   color: #303030;
 }
-.pricing_landing_prices_1 span {
+.pricing-landing-prices-1 span {
   font-family: "Libre Franklin", sans-serif;
   font-size: 1.25rem;
   color: #E27D60;
 }
-.pricing_landing_prices_1 .pricing_landing_prices_description {
+.pricing-landing-prices-1 .pricing-landing-prices-description {
   text-align: left;
   font-family: "Work Sans", sans-serif;
   color: #303030;
@@ -1065,7 +1065,7 @@ header .nav-header ul li a img {
   font-size: 0.75rem;
 }
 
-.pricing_landing_button {
+.pricing-landing-button {
   color: white;
   background-color: #303030;
   padding: 0.625rem 2.25rem 0.625rem 2.25rem;

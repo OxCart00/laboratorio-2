@@ -7,18 +7,18 @@ footer{
    }
 }
 
-.footer_Principal_Texto{
+.footer-main-text{
   color: $color-naranja-oscuro;
   margin: .625rem 0;
   padding: 1.875rem 0;
 }
 
-.footer_container{
+.footer-container{
   display: flex;
   justify-content: space-between;
   margin: 0 auto 1.25rem;
   width: 73.125rem;
-  .icon_social{
+  .icon-social{
     display: flex;
     align-items: center;
   }
@@ -27,7 +27,7 @@ footer{
     }
 }
 
-.icon_flex{
+.icon-flex{
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -36,6 +36,6 @@ footer{
   }
 }
 
-.icon_flex p{
+.icon-flex p{
   margin-left: 1.25rem;
 }
