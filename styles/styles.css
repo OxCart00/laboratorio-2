@@ -3,6 +3,314 @@ body {
   margin: 0 auto;
 }
 
+.big-div {
+  width: 1170px;
+  height: 1635px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.big-div p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  color: #303030;
+}
+
+.article-img {
+  width: 670px;
+  height: 368px;
+  position: relative;
+  right: 5px;
+}
+
+.article-div {
+  display: flex;
+  width: 470px;
+  height: 399px;
+  float: right;
+  flex-direction: column;
+}
+
+.article-div3 {
+  margin-top: 118px;
+  margin-left: 200px;
+}
+
+.article-content {
+  width: 770px;
+  height: 115px;
+  border: 1px solid #FAEEE5;
+  background-color: #FAEEE5;
+  margin-left: 200px;
+  text-align: center;
+}
+
+.article-content p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #303030;
+  margin-top: 26px;
+}
+
+.article-customer {
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.article-text2 {
+  margin-top: 50px;
+}
+
+.big-div2 {
+  width: 1170px;
+  height: 738px;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.article-headlines {
+  text-align: center;
+}
+
+.article-posts {
+  display: flex;
+  gap: 31px;
+}
+
+.article-article {
+  width: 369px;
+  height: 466px;
+  border: 2px #E6E6E6 solid;
+}
+
+.article-article a {
+  color: black;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.article-img2 {
+  width: 369px;
+  height: 250px;
+}
+
+.article-h4 {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  color: #E27D60;
+}
+
+.article-p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+}
+
+.article-box {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.aks_container {
+  margin-top: 6.25rem;
+  position: relative;
+  width: 120rem;
+  height: 37.5rem;
+}
+.aks_container .ask_text {
+  position: absolute;
+  width: 66.9375rem;
+  height: 25rem;
+  margin: 0 auto;
+  left: 23.4375rem;
+  top: 6.25rem;
+}
+.aks_container .ask_text .just_text {
+  position: absolute;
+  width: 37.5625rem;
+  height: 16rem;
+  top: 4.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.aks_container .ask_text .just_text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #ffffff;
+}
+.aks_container .ask_text .just_text h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #ffffff;
+}
+.aks_container .ask_text .just_text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  margin: 0;
+  opacity: 0.5;
+  color: #ffffff;
+}
+.aks_container .ask_text .forpos {
+  background-color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  width: 21.25rem;
+  height: 25rem;
+  padding-left: 1.875rem;
+  left: 700px;
+}
+
+.emi {
+  width: 310px;
+  height: 42px;
+}
+
+.subs2 {
+  height: 2.625rem;
+  width: 10.625rem;
+  color: #ffffff;
+  background-color: #303030;
+  font-size: 18px;
+  border: none;
+}
+
+.ti_cont {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.check {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.n1 {
+  color: #E27D60;
+}
+
+.blog_landing {
+  width: 73.125rem;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
+}
+.blog_landing h2 {
+  font-size: 2.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  color: #E27D60;
+  margin-bottom: 2.5rem;
+  margin-top: 0;
+}
+.blog_landing .blog_landing_p {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.6;
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+.blog_landing .blog_landing_img {
+  margin-top: 2.5rem;
+}
+
+.blog_landing_options {
+  display: flex;
+  gap: 1.25rem;
+}
+.blog_landing_options h3 {
+  font-size: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  color: #E27D60;
+  margin: 0;
+}
+
+.blog_landing_types {
+  border: solid 0.1875rem rgba(218, 217, 217, 0.8901960784);
+  border-radius: 0.1875rem;
+}
+.blog_landing_types .blog_landing_types_img2 {
+  position: relative;
+  bottom: 1.25rem;
+}
+
+.blog_landing_types_text {
+  text-align: left;
+  padding-left: 1.625rem;
+  position: relative;
+  bottom: 1.875rem;
+}
+
+.blog_landing_types_text_year {
+  display: flex;
+  align-items: center;
+  gap: 0.3125rem;
+  margin-top: 0.625rem;
+}
+.blog_landing_types_text_year .blog_landing_types_text_year_2 {
+  font-family: "Work Sans", sans-serif;
+  color: #303030;
+  opacity: 0.6;
+  font-size: 0.625rem;
+}
+
+.blog_landing_types_text_year img {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+.blog_landing_types_text_read_more {
+  display: flex;
+  align-items: center;
+  gap: 0.4375rem;
+  font-size: 1.125rem;
+  font-family: "Libre Franklin", bold;
+  color: #303030;
+  text-decoration: underline;
+  margin: 0;
+  margin-top: 0.5rem;
+}
+
+.blog_landing_types_text_read_more img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 footer {
   background-color: #303030;
   color: white;
@@ -43,254 +351,6 @@ footer li {
 
 .icon_flex p {
   margin-left: 1.25rem;
-}
-
-.newsseller_Container {
-  position: relative;
-}
-.newsseller_Container .ouroffer-img {
-  height: 275px;
-}
-.newsseller_Container div img {
-  position: relative;
-}
-.newsseller_Container div p {
-  color: #ffffff;
-}
-
-.container2 {
-  position: absolute;
-  top: 4rem;
-  left: 22.625rem;
-  color: white;
-  width: 73.125rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-.container2 .Dp {
-  width: 32%;
-}
-.container2 .Dp .light {
-  margin: 0;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-.container2 .Dp .Nwt {
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-}
-.container2 .Dp p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 20px auto;
-}
-.container2 .Dp span {
-  color: #E27D60;
-}
-
-.email_i {
-  height: 2.625rem;
-  width: 35.625rem;
-  padding: 0;
-  border: none;
-  margin-left: 0.3125rem;
-}
-
-.email_i::placeholder {
-  font-size: 1.125rem;
-  color: #303030;
-  opacity: 0.3;
-}
-
-.subs {
-  height: 2.625rem;
-  width: 10.625rem;
-  margin-left: 0.625rem;
-  color: #ffffff;
-  background-color: #303030;
-  font-size: 18px;
-  border: none;
-}
-
-header {
-  display: flex;
-  height: 6.5rem;
-  width: 73.125rem;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-header img {
-  width: 6.1875rem;
-  height: 1.25rem;
-}
-header .nav-principal ul {
-  list-style: none;
-  display: flex;
-}
-header .nav-principal ul li {
-  padding: 0 0.9375rem;
-}
-header .nav-principal ul li a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #303030;
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.02rem;
-}
-header .nav-principal ul li a:hover {
-  color: #E27D60;
-}
-header .nav-principal ul li a img {
-  width: 1.1875rem;
-  height: 1.1875rem;
-}
-header .nav-header ul {
-  list-style: none;
-  display: flex;
-}
-header .nav-header ul li {
-  padding: 0 0.625rem;
-}
-header .nav-header ul li a {
-  display: flex;
-  align-items: center;
-}
-header .nav-header ul li a img {
-  width: 1.5rem;
-  height: 1.5rem;
-}
-
-.our_team_people li {
-  list-style: none;
-}
-
-.our_team {
-  width: 73.125rem;
-  margin: 0 auto;
-  margin-bottom: 100px;
-}
-
-.our_team h3 {
-  font-size: 1.25rem;
-  font-family: "Libre Franklin", sans-serif;
-  margin-bottom: 0.9375rem;
-}
-
-.our_team p {
-  font-family: "Work Sans", sans-serif;
-  color: #303030;
-  opacity: 0.5;
-}
-
-.our_team img {
-  width: 16.875rem;
-  height: 22rem;
-}
-
-.our_team_title {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.sub_up {
-  margin-bottom: 0.625rem;
-  font-family: "Work Sans";
-  font-size: 1rem;
-  color: #303030;
-}
-
-.sub_down {
-  margin-bottom: 1.25rem;
-  gap: 1.25rem;
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 2.25rem;
-  color: #E27D60;
-}
-
-.sub_down_2 {
-  margin-bottom: 2.5rem;
-  font-size: 1.125rem;
-}
-
-.our_team_people ul {
-  padding: 0;
-}
-
-.our_team_people li {
-  list-style: none;
-}
-
-.our_team_people_row1 {
-  display: flex;
-  gap: 1.875rem;
-  margin-bottom: 2.125rem;
-}
-
-.our_team_people_row2 {
-  display: flex;
-  gap: 1.875rem;
-}
-
-.our_team_people_text {
-  margin-left: 1.25rem;
-}
-
-.show_more {
-  margin: 0 31.25rem;
-  margin-top: 1.25rem;
-  background-color: #303030;
-  color: white;
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 1.125rem;
-  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
-  border-radius: 0.1875rem;
-  border: #303030;
-}
-
-.headline {
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 19%, #e6e6e6 19%, #e6e6e6 100%);
-  height: 9rem;
-  width: 120rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.headline h3 {
-  margin: 0;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
-}
-.headline h1 {
-  margin: 0;
-  color: #E27D60;
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
 }
 
 .giveusavisit {
@@ -390,35 +450,93 @@ header .nav-header ul li a img {
   gap: 3px;
 }
 
-.trataments .trataments_container {
+header {
+  display: flex;
+  height: 6.5rem;
   width: 73.125rem;
-  margin: 6.25rem auto;
-}
-.trataments .trataments_container .trataments_titles {
-  text-align: center;
-  margin-bottom: 1.9375rem;
-}
-.trataments .trataments_container .trataments_titles .tratmens_T {
-  font-family: "Libre Franklin";
-  font-size: 2.25rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: #E27D60;
+  align-items: center;
+  justify-content: space-between;
   margin: 0 auto;
 }
-.trataments .trataments_container .trataments_titles .tratmens_P {
-  font-family: "Work Sans";
+header img {
+  width: 6.1875rem;
+  height: 1.25rem;
+}
+header .nav-principal ul {
+  list-style: none;
+  display: flex;
+}
+header .nav-principal ul li {
+  padding: 0 0.9375rem;
+}
+header .nav-principal ul li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #303030;
+  font-family: "Libre Franklin";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 0.5rem auto;
+  line-height: 1.1875rem;
+  letter-spacing: 0.02rem;
+}
+header .nav-principal ul li a:hover {
+  color: #E27D60;
+}
+header .nav-principal ul li a img {
+  width: 1.1875rem;
+  height: 1.1875rem;
+}
+header .nav-header ul {
+  list-style: none;
+  display: flex;
+}
+header .nav-header ul li {
+  padding: 0 0.625rem;
+}
+header .nav-header ul li a {
+  display: flex;
+  align-items: center;
+}
+header .nav-header ul li a img {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-.trataments_images {
+.headline {
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 19%, #e6e6e6 19%, #e6e6e6 100%);
+  height: 9rem;
+  width: 120rem;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.headline h3 {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.headline h1 {
+  margin: 0;
+  color: #E27D60;
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.img_partners {
+  width: 73.125rem;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .landing {
@@ -559,6 +677,157 @@ header .nav-header ul li a img {
   text-align: center;
 }
 
+.newsseller_Container {
+  position: relative;
+}
+.newsseller_Container .ouroffer-img {
+  height: 275px;
+}
+.newsseller_Container div img {
+  position: relative;
+}
+.newsseller_Container div p {
+  color: #ffffff;
+}
+
+.container2 {
+  position: absolute;
+  top: 4rem;
+  left: 22.625rem;
+  color: white;
+  width: 73.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.container2 .Dp {
+  width: 32%;
+}
+.container2 .Dp .light {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.container2 .Dp .Nwt {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.container2 .Dp p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 20px auto;
+}
+.container2 .Dp span {
+  color: #E27D60;
+}
+
+.email_i {
+  height: 2.625rem;
+  width: 35.625rem;
+  padding: 0;
+  border: none;
+  margin-left: 0.3125rem;
+}
+
+.email_i::placeholder {
+  font-size: 1.125rem;
+  color: #303030;
+  opacity: 0.3;
+}
+
+.subs {
+  height: 2.625rem;
+  width: 10.625rem;
+  margin-left: 0.625rem;
+  color: #ffffff;
+  background-color: #303030;
+  font-size: 18px;
+  border: none;
+}
+
+.product-div {
+  width: 1170px;
+  height: 742px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.product-p {
+  margin-bottom: 0.625rem;
+  font-family: "Work Sans";
+  font-size: 1rem;
+  color: #303030;
+}
+
+.product-h2 {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
+  color: #E27D60;
+}
+
+.product-list2 {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.container2 .Dp2 {
+  width: 370px;
+  height: 135px;
+  position: absolute;
+  left: 96px;
+}
+.container2 .Dp2 .light {
+  margin: 0;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.ctn_lk {
+  width: 65rem;
+  height: 11.625rem;
+}
+
+.input_colum {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 37.3125rem;
+  gap: 2.5rem;
+}
+.input_colum .ip {
+  gap: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ouroffer {
+  height: 325px;
+}
+.ouroffer .ouroffer-img {
+  height: 325px;
+}
+
 .our_services {
   background-color: #E6E6E6;
   height: 48.875rem;
@@ -668,346 +937,91 @@ header .nav-header ul li a img {
   margin-left: 23.25rem;
 }
 
-.img_partners {
+.our_team_people li {
+  list-style: none;
+}
+
+.our_team {
   width: 73.125rem;
   margin: 0 auto;
-  margin-top: 60px;
-  display: flex;
-  justify-content: space-evenly;
+  margin-bottom: 100px;
 }
 
-.text {
-  width: 120rem;
-  height: 31.875rem;
-  background: linear-gradient(to right, #ffffff 0%, #ffffff 34.375%, #e6e6e6 34.375%, #e6e6e6 100%);
-  display: flex;
-  align-items: center;
-}
-.text .text-cont {
-  width: 73.125rem;
-  height: 23.125rem;
-  display: flex;
-  margin: 0 auto;
-  align-items: center;
-}
-.text .text-cont .text-img {
-  display: flex;
-}
-.text .text-cont .text-text {
-  margin-left: 100px;
-  width: 31.25rem;
-  height: 198px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-}
-.text .text-cont .text-text h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #303030;
-  margin: 0;
-}
-.text .text-cont .text-text h2 {
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.02em;
-  margin: 0;
-  color: #E27D60;
-}
-.text .text-cont .text-text p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0;
-  color: #303030;
-}
-.text .text-cont .text-text a {
-  text-decoration: none;
-  background-color: #303030;
-  color: white;
+.our_team h3 {
+  font-size: 1.25rem;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 1.125rem;
-  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
-  border-radius: 0.1875rem;
-  border: #303030;
-}
-.text .text-cont .text-text-v2 {
-  height: 20.125rem;
+  margin-bottom: 0.9375rem;
 }
 
-.text-v2 {
-  width: 1170px;
-  height: 842px;
-  margin: 0 auto;
-}
-.text-v2 .text-v2-bloq1 {
-  display: flex;
-  margin-bottom: 40px;
-}
-.text-v2 .text-v2-bloq1 .text-v2-text1 {
-  margin-left: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.text-v2 .text-v2-bloq1 .text-v2-text1 h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #303030;
-}
-.text-v2 .text-v2-bloq1 .text-v2-text1 h2 {
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 44px;
-  letter-spacing: 0.02em;
-  margin: 0;
-  color: #E27D60;
-}
-.text-v2 .text-v2-bloq1 .text-v2-text1 p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0;
-  color: #303030;
-}
-.text-v2 .text-v2-bloq2 {
-  display: flex;
-  flex-direction: row-reverse;
-  margin-bottom: 40px;
-}
-.text-v2 .text-v2-bloq2 .text-v2-text2 {
-  margin-right: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-.text-v2 .text-v2-bloq2 .text-v2-text2 p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0;
-  color: #303030;
-}
-.text-v2 .text-v2-bloq3 {
-  width: 175px;
-  margin: 0 auto;
-}
-.text-v2 .text-v2-bloq3 a {
-  text-decoration: none;
-  background-color: #303030;
-  color: white;
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 1.125rem;
-  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
-  border-radius: 0.1875rem;
-  border: #303030;
-}
-
-.container2 .Dp2 {
-  width: 370px;
-  height: 135px;
-  position: absolute;
-  left: 96px;
-}
-.container2 .Dp2 .light {
-  margin: 0;
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-.ctn_lk {
-  width: 65rem;
-  height: 11.625rem;
-}
-
-.input_colum {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  left: 37.3125rem;
-  gap: 2.5rem;
-}
-.input_colum .ip {
-  gap: 1.25rem;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.ouroffer {
-  height: 325px;
-}
-.ouroffer .ouroffer-img {
-  height: 325px;
-}
-
-.servs_discount {
-  width: 120rem;
-}
-
-.servs_discount_text {
-  z-index: 2;
-  width: 56.875rem;
-  height: 9.375rem;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  position: relative;
-  bottom: 15.625rem;
-  gap: 10.1875rem;
-}
-.servs_discount_text p {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 4rem;
-  color: white;
-}
-
-.servs_discount_text_title {
-  display: flex;
-  flex-direction: column;
-  width: 36.4375rem;
-}
-.servs_discount_text_title h2 {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 4rem;
-  color: white;
-  margin: 0;
-}
-.servs_discount_text_title span {
-  color: #E27D60;
-}
-.servs_discount_text_title p {
+.our_team p {
   font-family: "Work Sans", sans-serif;
-  font-size: 1.125rem;
-  color: white;
-}
-
-.aks_container {
-  margin-top: 6.25rem;
-  position: relative;
-  width: 120rem;
-  height: 37.5rem;
-}
-.aks_container .ask_text {
-  position: absolute;
-  width: 66.9375rem;
-  height: 25rem;
-  margin: 0 auto;
-  left: 23.4375rem;
-  top: 6.25rem;
-}
-.aks_container .ask_text .just_text {
-  position: absolute;
-  width: 37.5625rem;
-  height: 16rem;
-  top: 4.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.aks_container .ask_text .just_text h3 {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  margin: 0;
-  color: #ffffff;
-}
-.aks_container .ask_text .just_text h2 {
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.75rem;
-  letter-spacing: 0.02em;
-  margin: 0;
-  color: #ffffff;
-}
-.aks_container .ask_text .just_text p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.1875rem;
-  margin: 0;
+  color: #303030;
   opacity: 0.5;
-  color: #ffffff;
-}
-.aks_container .ask_text .forpos {
-  background-color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  position: absolute;
-  width: 21.25rem;
-  height: 25rem;
-  padding-left: 1.875rem;
-  left: 700px;
 }
 
-.emi {
-  width: 310px;
-  height: 42px;
+.our_team img {
+  width: 16.875rem;
+  height: 22rem;
 }
 
-.subs2 {
-  height: 2.625rem;
-  width: 10.625rem;
-  color: #ffffff;
-  background-color: #303030;
-  font-size: 18px;
-  border: none;
+.our_team_title {
+  text-align: center;
+  margin: 0 auto;
 }
 
-.ti_cont {
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-}
-
-.check {
+.sub_up {
+  margin-bottom: 0.625rem;
   font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 1rem;
+  color: #303030;
 }
 
-.n1 {
+.sub_down {
+  margin-bottom: 1.25rem;
+  gap: 1.25rem;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.25rem;
   color: #E27D60;
+}
+
+.sub_down_2 {
+  margin-bottom: 2.5rem;
+  font-size: 1.125rem;
+}
+
+.our_team_people ul {
+  padding: 0;
+}
+
+.our_team_people li {
+  list-style: none;
+}
+
+.our_team_people_row1 {
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 2.125rem;
+}
+
+.our_team_people_row2 {
+  display: flex;
+  gap: 1.875rem;
+}
+
+.our_team_people_text {
+  margin-left: 1.25rem;
+}
+
+.show_more {
+  margin: 0 31.25rem;
+  margin-top: 1.25rem;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
 }
 
 .pricing_landing {
@@ -1060,159 +1074,6 @@ header .nav-header ul li a img {
   border-radius: 0.1875rem;
   border-style: none;
   margin-top: 2.5rem;
-}
-
-.blog_landing {
-  width: 73.125rem;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 6.25rem;
-  margin-bottom: 6.25rem;
-}
-.blog_landing h2 {
-  font-size: 2.25rem;
-  font-family: "Libre Franklin", sans-serif;
-  color: #E27D60;
-  margin-bottom: 2.5rem;
-  margin-top: 0;
-}
-.blog_landing .blog_landing_p {
-  font-family: "Work Sans", sans-serif;
-  color: #303030;
-  opacity: 0.6;
-  font-size: 1rem;
-  margin-bottom: 1.25rem;
-}
-.blog_landing .blog_landing_img {
-  margin-top: 2.5rem;
-}
-
-.blog_landing_options {
-  display: flex;
-  gap: 1.25rem;
-}
-.blog_landing_options h3 {
-  font-size: 1.25rem;
-  font-family: "Libre Franklin", sans-serif;
-  color: #E27D60;
-  margin: 0;
-}
-
-.blog_landing_types {
-  border: solid 0.1875rem rgba(218, 217, 217, 0.8901960784);
-  border-radius: 0.1875rem;
-}
-.blog_landing_types .blog_landing_types_img2 {
-  position: relative;
-  bottom: 1.25rem;
-}
-
-.blog_landing_types_text {
-  text-align: left;
-  padding-left: 1.625rem;
-  position: relative;
-  bottom: 1.875rem;
-}
-
-.blog_landing_types_text_year {
-  display: flex;
-  align-items: center;
-  gap: 0.3125rem;
-  margin-top: 0.625rem;
-}
-.blog_landing_types_text_year .blog_landing_types_text_year_2 {
-  font-family: "Work Sans", sans-serif;
-  color: #303030;
-  opacity: 0.6;
-  font-size: 0.625rem;
-}
-
-.blog_landing_types_text_year img {
-  width: 0.625rem;
-  height: 0.625rem;
-}
-
-.blog_landing_types_text_read_more {
-  display: flex;
-  align-items: center;
-  gap: 0.4375rem;
-  font-size: 1.125rem;
-  font-family: "Libre Franklin", bold;
-  color: #303030;
-  text-decoration: underline;
-  margin: 0;
-  margin-top: 0.5rem;
-}
-
-.blog_landing_types_text_read_more img {
-  width: 1.25rem;
-  height: 1.25rem;
-}
-
-.shop_landing {
-  width: 73.125rem;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 6.25rem;
-}
-.shop_landing h2 {
-  font-family: "Libre Franklin", sans-serif;
-  font-size: 2.25rem;
-  color: #E27D60;
-}
-
-.shop_landing_text_sub_title {
-  font-family: "Work Sans", sans-serif;
-  font-size: 1rem;
-  color: #303030;
-  opacity: 0.7;
-}
-
-.shop_landing_text_down {
-  font-family: "Work Sans", sans-serif;
-  font-size: 1.125rem;
-  color: #303030;
-  opacity: 0.6;
-  width: 51.875rem;
-  text-align: center;
-  margin: 0 auto;
-}
-
-.shop_landing_text {
-  margin-bottom: 2.5rem;
-}
-
-.shop_products {
-  display: flex;
-  justify-content: space-between;
-}
-
-.bar_shop_products {
-  position: relative;
-  bottom: 1.375rem;
-}
-
-.shop_products_text {
-  text-align: left;
-  margin-bottom: 2.5rem;
-}
-.shop_products_text h3 {
-  font-family: "Libre Franklin", sans-serif;
-  color: #303030;
-  font-size: 1.25rem;
-}
-
-.shop_products_text_up {
-  font-family: "Work Sans", sans-serif;
-  font-size: 0.625rem;
-  color: #303030;
-  opacity: 0.5;
-}
-
-.shop_products_text_price {
-  font-family: "Libre Franklin", bold;
-  color: #E27D60;
-  font-size: 1rem;
 }
 
 .big-div3 {
@@ -1372,91 +1233,261 @@ header .nav-header ul li a img {
   bottom: -310px;
 }
 
-.big-div2 {
-  width: 1170px;
-  height: 738px;
-  align-items: center;
+.servs_discount {
+  width: 120rem;
+}
+
+.servs_discount_text {
+  z-index: 2;
+  width: 56.875rem;
+  height: 9.375rem;
   margin: 0 auto;
-}
-
-.article-headlines {
-  text-align: center;
-}
-
-.article-posts {
   display: flex;
-  gap: 31px;
+  align-items: center;
+  position: relative;
+  bottom: 15.625rem;
+  gap: 10.1875rem;
 }
-
-.article-article {
-  width: 369px;
-  height: 466px;
-  border: 2px #E6E6E6 solid;
-}
-
-.article-article a {
-  color: black;
-  font-family: "Libre Franklin";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 22px;
-}
-
-.article-img2 {
-  width: 369px;
-  height: 250px;
-}
-
-.article-h4 {
-  margin-bottom: 1.25rem;
-  gap: 1.25rem;
+.servs_discount_text p {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 20px;
+  font-size: 4rem;
+  color: white;
+}
+
+.servs_discount_text_title {
+  display: flex;
+  flex-direction: column;
+  width: 36.4375rem;
+}
+.servs_discount_text_title h2 {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 4rem;
+  color: white;
+  margin: 0;
+}
+.servs_discount_text_title span {
   color: #E27D60;
 }
-
-.article-p {
-  font-family: "Work Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: justify;
+.servs_discount_text_title p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  color: white;
 }
 
-.article-box {
-  margin-left: 10px;
-  margin-right: 5px;
-}
-
-.product-div {
-  width: 1170px;
-  height: 742px;
-  margin: 0px auto;
+.shop_landing {
+  width: 73.125rem;
+  margin: 0 auto;
   text-align: center;
+  margin-top: 6.25rem;
 }
-
-.product-p {
-  margin-bottom: 0.625rem;
-  font-family: "Work Sans";
-  font-size: 1rem;
-  color: #303030;
-}
-
-.product-h2 {
-  margin-bottom: 1.25rem;
-  gap: 1.25rem;
+.shop_landing h2 {
   font-family: "Libre Franklin", sans-serif;
   font-size: 2.25rem;
   color: #E27D60;
 }
 
-.product-list2 {
+.shop_landing_text_sub_title {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1rem;
+  color: #303030;
+  opacity: 0.7;
+}
+
+.shop_landing_text_down {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.125rem;
+  color: #303030;
+  opacity: 0.6;
+  width: 51.875rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.shop_landing_text {
+  margin-bottom: 2.5rem;
+}
+
+.shop_products {
   display: flex;
-  list-style: none;
-  gap: 30px;
-  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.bar_shop_products {
+  position: relative;
+  bottom: 1.375rem;
+}
+
+.shop_products_text {
+  text-align: left;
+  margin-bottom: 2.5rem;
+}
+.shop_products_text h3 {
+  font-family: "Libre Franklin", sans-serif;
+  color: #303030;
+  font-size: 1.25rem;
+}
+
+.shop_products_text_up {
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.625rem;
+  color: #303030;
+  opacity: 0.5;
+}
+
+.shop_products_text_price {
+  font-family: "Libre Franklin", bold;
+  color: #E27D60;
+  font-size: 1rem;
+}
+
+.text {
+  width: 120rem;
+  height: 31.875rem;
+  background: linear-gradient(to right, #ffffff 0%, #ffffff 34.375%, #e6e6e6 34.375%, #e6e6e6 100%);
+  display: flex;
+  align-items: center;
+}
+.text .text-cont {
+  width: 73.125rem;
+  height: 23.125rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+.text .text-cont .text-img {
+  display: flex;
+}
+.text .text-cont .text-text {
+  margin-left: 100px;
+  width: 31.25rem;
+  height: 198px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.text .text-cont .text-text h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+  margin: 0;
+}
+.text .text-cont .text-text h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #E27D60;
+}
+.text .text-cont .text-text p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text .text-cont .text-text a {
+  text-decoration: none;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
+}
+.text .text-cont .text-text-v2 {
+  height: 20.125rem;
+}
+
+.text-v2 {
+  width: 1170px;
+  height: 842px;
+  margin: 0 auto;
+}
+.text-v2 .text-v2-bloq1 {
+  display: flex;
+  margin-bottom: 40px;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 h2 {
+  font-family: "Libre Franklin";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  margin: 0;
+  color: #E27D60;
+}
+.text-v2 .text-v2-bloq1 .text-v2-text1 p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq2 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 40px;
+}
+.text-v2 .text-v2-bloq2 .text-v2-text2 {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.text-v2 .text-v2-bloq2 .text-v2-text2 p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  color: #303030;
+}
+.text-v2 .text-v2-bloq3 {
+  width: 175px;
+  margin: 0 auto;
+}
+.text-v2 .text-v2-bloq3 a {
+  text-decoration: none;
+  background-color: #303030;
+  color: white;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.125rem;
+  padding: 0.625rem 2.25rem 0.625rem 2.25rem;
+  border-radius: 0.1875rem;
+  border: #303030;
 }
 
 .product-toolbar {
@@ -1493,66 +1524,35 @@ header .nav-header ul li a img {
   letter-spacing: 0.02em;
 }
 
-.big-div {
-  width: 1170px;
-  height: 1635px;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 100px;
+.trataments .trataments_container {
+  width: 73.125rem;
+  margin: 6.25rem auto;
 }
-
-.big-div p {
+.trataments .trataments_container .trataments_titles {
+  text-align: center;
+  margin-bottom: 1.9375rem;
+}
+.trataments .trataments_container .trataments_titles .tratmens_T {
+  font-family: "Libre Franklin";
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #E27D60;
+  margin: 0 auto;
+}
+.trataments .trataments_container .trataments_titles .tratmens_P {
   font-family: "Work Sans";
   font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 21px;
-  color: #303030;
+  font-weight: 300;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0.5rem auto;
 }
 
-.article-img {
-  width: 670px;
-  height: 368px;
-  position: relative;
-  right: 5px;
-}
-
-.article-div {
+.trataments_images {
   display: flex;
-  width: 470px;
-  height: 399px;
-  float: right;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
-.article-div3 {
-  margin-top: 118px;
-  margin-left: 200px;
-}
-
-.article-content {
-  width: 770px;
-  height: 115px;
-  border: 1px solid #FAEEE5;
-  background-color: #FAEEE5;
-  margin-left: 200px;
-  text-align: center;
-}
-
-.article-content p {
-  font-size: 16px;
-  line-height: 19px;
-  color: #303030;
-  margin-top: 26px;
-}
-
-.article-customer {
-  margin-left: 200px;
-  margin-top: 10px;
-}
-
-.article-text2 {
-  margin-top: 50px;
-}
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=styles.css.map */
