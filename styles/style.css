@@ -311,12 +311,11 @@ body {
   height: 1.25rem;
 }
 
-footer {
+/*footer {
   background-color: #303030;
   color: white;
-  font-family: "Libre Franklin";
-}
-
+  font-family: 'Libre Franklin';
+}*/
 .footer-box {
   display: flex;
   justify-content: space-between;
@@ -327,7 +326,7 @@ footer {
   display: flex;
   align-items: center;
 }
-.footer-box .footer-icon .footer-icon__social {
+.footer-box .footer-icon .footer-icon-social {
   margin: 0.625rem;
 }
 .footer-box .footer-main {

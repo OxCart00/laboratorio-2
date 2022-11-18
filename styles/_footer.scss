@@ -1,8 +1,8 @@
-footer {
+/*footer {
   background-color: #303030;
   color: white;
   font-family: 'Libre Franklin';
-}
+}*/
 
   .footer-box {
     display: flex;
@@ -14,7 +14,7 @@ footer {
       display: flex;
       align-items: center;
   
-      .footer-icon__social {
+      .footer-icon-social {
         margin: .625rem;
       }
     }
