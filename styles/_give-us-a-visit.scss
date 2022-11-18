@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
 
-  .give-us-content {
+  .give-us__content {
     display: flex;
     width: 1170px;
     height: 340px;
@@ -15,7 +15,7 @@
     align-items: center;
   }
 
-  .give-us-text {
+  .give-us__text {
     display: flex;
     flex-direction: column;
     height: 340px;
@@ -61,7 +61,7 @@
     opacity: 0.8;
   }
 
-  .give-us-boton {
+  .give-us__boton {
     background-color: #303030;
     color: white;
     font-family: "Libre Franklin", sans-serif;
@@ -81,7 +81,7 @@
   justify-content: center;
   align-items: center;
 
-  .give-us-text {
+  .give-us__text {
     display: flex;
     flex-direction: column;
     height: 350px;
@@ -97,7 +97,7 @@
     align-items: flex-end;
   }
 
-  .give-us-img {
+  .give-us__img {
     display: flex;
     flex-wrap: wrap;
     gap: 3px;
