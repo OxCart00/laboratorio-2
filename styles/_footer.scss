@@ -1,15 +1,20 @@
-/*footer {
+footer {
   background-color: #303030;
   color: white;
   font-family: 'Libre Franklin';
-}*/
+}
 
   .footer-box {
     display: flex;
     justify-content: space-between;
     margin: 0 auto 1.25rem;
     width: 73.125rem;
-    
+
+    .footer-box__logo {
+        display: flex;
+        align-items: center;
+      }
+
     .footer-icon {
       display: flex;
       align-items: center;
@@ -21,8 +26,9 @@
   
     .footer-main {
       display: flex;
-      list-style: none;
-  
+      li{
+        list-style: none;
+      }
       .footer-main-text {
         color: $color-naranja-oscuro;
         margin: .625rem 0;

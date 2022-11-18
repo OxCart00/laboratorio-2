@@ -1,13 +1,11 @@
-.news-seller-container {
+.news-box {
   position: relative;
 
-  .our-offer-img {
+  .news-box__fond{
     height: 275px;
-  }
-
-  div {
     img {
       position: relative;
+      display: block;
     }
 
     p {
@@ -16,7 +14,7 @@
   }
 }
 
-.container2 {
+.news-box2 {
   position: absolute;
   top: 4rem;
   left: 22.625rem;
@@ -27,10 +25,10 @@
   justify-content: space-between;
   margin: 0 auto;
 
-  .dp {
+  .news-text {
     width: 32%;
 
-    .light {
+    .news-text__transparent{
       margin: 0;
       font-family: 'Work Sans';
       font-style: normal;
@@ -41,7 +39,7 @@
       text-transform: uppercase;
     }
 
-    .nwt {
+    .news-text__join {
       font-family: 'Libre Franklin';
       font-style: normal;
       font-weight: 700;
@@ -64,7 +62,7 @@
   }
 }
 
-.email-i {
+.form__email {
   height: 2.625rem;
   width: 35.625rem;
   padding: 0;
@@ -72,13 +70,13 @@
   margin-left: .3125rem;
 }
 
-.email-i::placeholder {
+.form__email::placeholder {
   font-size: 1.125rem;
   color: #303030;
   opacity: 0.3;
 }
 
-.subs {
+.form__button{
   height: 2.625rem;
   width: 10.625rem;
   margin-left: .625rem;
