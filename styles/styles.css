@@ -261,7 +261,7 @@ body {
 }
 
 .blog_landing_types {
-  border: solid 0.1875rem rgba(218, 217, 217, 0.8901960784);
+  border: solid 0.1875rem #dad9d9e3;
   border-radius: 0.1875rem;
 }
 .blog_landing_types .blog_landing_types_img2 {
@@ -316,36 +316,41 @@ footer {
   color: white;
   font-family: "Libre Franklin";
 }
-footer li {
-  list-style: none;
-}
 
-.footer-main-text {
-  color: #E27D60;
-  margin: 0.625rem 0;
-  padding: 1.875rem 0;
-}
-
-.footer-container {
+.footer-box {
   display: flex;
   justify-content: space-between;
   margin: 0 auto 1.25rem;
   width: 73.125rem;
 }
-.footer-container .icon-social {
+.footer-box .footer-box__logo {
   display: flex;
   align-items: center;
 }
-.footer-container img {
+.footer-box .footer-icon {
+  display: flex;
+  align-items: center;
+}
+.footer-box .footer-icon .footer-icon-social {
   margin: 0.625rem;
 }
-
-.icon-flex {
+.footer-box .footer-main {
+  display: flex;
+}
+.footer-box .footer-main li {
+  list-style: none;
+}
+.footer-box .footer-main .footer-main-text {
+  color: #E27D60;
+  margin: 0.625rem 0;
+  padding: 1.875rem 0;
+}
+.footer-box .footer-main .footer-main-icon {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
-.icon-flex img {
+.footer-box .footer-main .footer-main-icon img {
   margin: 0.625rem 0px;
 }
 
@@ -646,20 +651,21 @@ header img {
   text-align: center;
 }
 
-.news-seller-container {
+.news-box {
   position: relative;
 }
-.news-seller-container .our-offer-img {
+.news-box .news-box__fond {
   height: 275px;
 }
-.news-seller-container div img {
+.news-box .news-box__fond img {
   position: relative;
+  display: block;
 }
-.news-seller-container div p {
+.news-box .news-box__fond p {
   color: #ffffff;
 }
 
-.container2 {
+.news-box2 {
   position: absolute;
   top: 4rem;
   left: 22.625rem;
@@ -670,10 +676,10 @@ header img {
   justify-content: space-between;
   margin: 0 auto;
 }
-.container2 .dp {
+.news-box2 .news-text {
   width: 32%;
 }
-.container2 .dp .light {
+.news-box2 .news-text .news-text__transparent {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
@@ -683,14 +689,14 @@ header img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.container2 .dp .nwt {
+.news-box2 .news-text .news-text__join {
   font-family: "Libre Franklin";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
 }
-.container2 .dp p {
+.news-box2 .news-text p {
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 400;
@@ -698,11 +704,11 @@ header img {
   line-height: 21px;
   margin: 20px auto;
 }
-.container2 .dp span {
+.news-box2 .news-text span {
   color: #E27D60;
 }
 
-.email-i {
+.form__email {
   height: 2.625rem;
   width: 35.625rem;
   padding: 0;
@@ -710,13 +716,13 @@ header img {
   margin-left: 0.3125rem;
 }
 
-.email-i::placeholder {
+.form__email::placeholder {
   font-size: 1.125rem;
   color: #303030;
   opacity: 0.3;
 }
 
-.subs {
+.form__button {
   height: 2.625rem;
   width: 10.625rem;
   margin-left: 0.625rem;
@@ -755,13 +761,13 @@ header img {
   margin-top: 50px;
 }
 
-.container2 .dp2 {
+.news-box2 .news-text2 {
   width: 370px;
   height: 135px;
   position: absolute;
   left: 96px;
 }
-.container2 .dp2 .light {
+.news-box2 .news-text2 .news-text__transparent {
   margin: 0;
   font-family: "Work Sans";
   font-style: normal;
@@ -858,7 +864,7 @@ header img {
 
 .our-servs-text-whit {
   background-color: white;
-  border: solid rgba(208, 206, 206, 0.6666666667) 0.1875rem;
+  border: solid #d0ceceaa 0.1875rem;
   border-radius: 0.1875rem;
   padding: 1.75rem;
   font-family: "Work Sans", sans-serif;

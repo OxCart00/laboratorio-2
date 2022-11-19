@@ -2,43 +2,50 @@ footer {
   background-color: #303030;
   color: white;
   font-family: 'Libre Franklin';
-
-  li {
-    list-style: none;
-  }
 }
 
-.footer-main-text {
-  color: $color-naranja-oscuro;
-  margin: .625rem 0;
-  padding: 1.875rem 0;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto 1.25rem;
-  width: 73.125rem;
-
-  .icon-social {
+  .footer-box {
     display: flex;
-    align-items: center;
-  }
+    justify-content: space-between;
+    margin: 0 auto 1.25rem;
+    width: 73.125rem;
 
-  img {
-    margin: .625rem;
-  }
-}
+    .footer-box__logo {
+        display: flex;
+        align-items: center;
+      }
 
-.icon-flex {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-
-  img {
-    margin: .625rem 0px;
+    .footer-icon {
+      display: flex;
+      align-items: center;
+  
+      .footer-icon-social {
+        margin: .625rem;
+      }
+    }
+  
+    .footer-main {
+      display: flex;
+      li{
+        list-style: none;
+      }
+      .footer-main-text {
+        color: $color-naranja-oscuro;
+        margin: .625rem 0;
+        padding: 1.875rem 0;
+      }
+  
+      .footer-main-icon {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+  
+        img {
+          margin: .625rem 0px;
+        }
+      }
+    }
   }
-}
 
 .icon-flex p {
   margin-left: 1.25rem;
