@@ -4,13 +4,13 @@
   margin: 0px auto;
 }
 
-.product-lotion {
+.product__lotion {
   width: 570px;
   height: 570px;
   margin-top: 101px;
 }
 
-.product-text {
+.product__text {
   width: 509px;
   height: 570px;
   position: absolute;
@@ -18,7 +18,7 @@
   left: 1320px;
 }
 
-.product-h3 h3 {
+.product__h3 h3 {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
@@ -26,7 +26,7 @@
   line-height: 44px;
 }
 
-.product-h3 p {
+.product__h3 p {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
@@ -34,7 +34,7 @@
   line-height: 17px;
 }
 
-.product-button {
+.product__button {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
@@ -47,15 +47,15 @@
   border: none;
 }
 
-.product-bar {
+.product__bar {
   margin-left: 245px;
 }
 
-.product-cantidad {
+.product__cant {
   margin-top: 40px;
 }
 
-.product-text2 {
+.product__text2 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -64,11 +64,11 @@
   margin-top: 30px;
 }
 
-.product-media {
+.product__media {
   margin-top: 30px;
 }
 
-.product-box {
+.product__box {
   position: absolute;
   top: 560px;
   width: 500px;
@@ -83,7 +83,7 @@
   line-height: 22px;
 }
 
-.product-text3 {
+.product__text3 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;
@@ -91,7 +91,7 @@
   line-height: 21px;
 }
 
-.product-h {
+.product__h {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
@@ -100,17 +100,17 @@
   color: #E27D60;
 }
 
-.product-flex {
+.product__flex {
   display: flex;
   gap: 20px
 }
 
-.product-review {
+.product__review {
   width: 570px;
   height: 216px;
 }
 
-.product-div4 {
+.product__div4 {
   text-align: center;
   width: 570px;
   height: 156px;
@@ -122,11 +122,11 @@
   line-height: 16px;
 }
 
-.product-div4 p {
+.product__div4 p {
   margin: 30px;
 }
 
-.product-h6-1 {
+.product__h6--1 {
   font-family: 'Libre Franklin';
   font-style: normal;
   font-weight: 700;
@@ -136,7 +136,7 @@
   display: inline;
 }
 
-.product-h6-2 {
+.product__h6--2 {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 400;

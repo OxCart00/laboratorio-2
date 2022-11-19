@@ -5,14 +5,14 @@
   text-align: center;
 }
 
-.product-p {
+.product__p {
   margin-bottom: .625rem;
   font-family: 'Work Sans';
   font-size: 1rem;
   color: #303030;
 }
 
-.product-h2 {
+.product__h2 {
   margin-bottom: 1.25rem;
   gap: 1.25rem;
   font-family: 'Libre Franklin', sans-serif;
@@ -20,7 +20,7 @@
   color: #E27D60;
 }
 
-.product-list2 {
+.product__list2 {
   display: flex;
   list-style: none;
   gap: 30px;
