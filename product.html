@@ -1,47 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="estilos/estilos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100;400;700&display=swap" rel="stylesheet">
-  <title>Products</title>
+  <title>Document</title>
 </head>
-
 <body>
   <header>
     <img src="images/logo.png" alt="">
-    <nav class="main-nav">
-      <ul class="main-nav__list">
-        <li><a href="#" class="main-nav__text">Home <img class="main-nav__arrow-nav" src="images/flecha-nav.png" alt=""></a></li>
-        <li><a href="#" class="main-nav__text">Booking <img class="main-nav__arrow-nav" src="images/flecha-nav.png" alt=""></a></li>
-        <li><a href="#" class="main-nav__text">Shop <img class="main-nav__arrow-nav" src="images/flecha-nav.png" alt=""></a></li>
-        <li><a href="#" class="main-nav__text">Blog <img class="main-nav__arrow-nav" src="images/flecha-nav.png" alt=""></a></li>
-        <li><a href="#" class="main-nav__text">Features <img class="main-nav__arrow-nav" src="images/flecha-nav.png" alt=""></a></li>
+    <nav class="nav-principal">
+      <ul>
+        <li><a href="#">Home <img class="flecha-nav" src="images/flecha-nav.png" alt=""></a></li>
+        <li><a href="#">Booking <img class="flecha-nav" src="images/flecha-nav.png" alt=""></a></li>
+        <li><a href="#">Shop <img class="flecha-nav" src="images/flecha-nav.png" alt=""></a></li>
+        <li><a href="#">Blog <img class="flecha-nav" src="images/flecha-nav.png" alt=""></a></li>
+        <li><a href="#">Features <img class="flecha-nav" src="images/flecha-nav.png" alt=""></a></li>
       </ul>
     </nav>
     <nav class="nav-header">
-      <ul class="main-nav__list">
-        <li><a href="#" class="main-nav__text"><img src="images/search.png" alt="" class="main-nav__icon"></a></li>
-        <li><a href="#" class="main-nav__text"><img src="images/book.png" alt="" class="main-nav__icon"class="main-nav__icon"></a></li>
-        <li><a href="#" class="main-nav__text"><img src="images/shopping-cart.png" alt="" class="main-nav__icon"></a></li>
+      <ul>
+        <li><a href="#"><img src="images/search.png" alt=""></a></li>
+        <li><a href="#"><img src="images/book.png" alt=""></a></li>
+        <li><a href="#"><img src="images/shopping-cart.png" alt=""></a></li>
       </ul>
     </nav>
   </header>
-
   <div class="headline">
     <h3>Home / Shop / Product</h3>
     <h1>Product</h1>
   </div>
-
   <div class="product-toolbar">
-    <img src="images/Frame 18.png" alt="Lupa" class="toolbar__icon">
-    <ul class="product__list">
+        <img src="images/Frame 18.png" alt="Lupa" class="lupita">
+    <ul class="product-list">
       <li>
         <p><a href="#">Bestsellers<img src="images/Vector2.png" alt="flecha"></a></p>
       </li>
@@ -68,85 +64,70 @@
       </li>
     </ul>
   </div>
-
-  <div class="big-div3">
-    <div class="product__lotion">
-      <img src="images/Group 96.png" alt="product">
+<div class="big-div3">
+  <div class="product-lotion">
+    <img src="images/Group 96.png" alt="product">
+  </div>
+  <div class="product-text">
+  <div class="product-h3">
+    <h3>Message Oil</h3>
+    <p><img src="images/stars.png" alt="estrellas">57 ratings</p>
+  </div>
+  <div>
+  <button class="product-button">Bestseller</button>
+  <img src="images/Bar.png" alt="bar" class="product-bar">
+  </div>
+  <img src="images/Quantity.png" alt="cantidad" class="product-cantidad">
+  <div class="product-text2">
+    <p>Eu et metus ultricies id ut mattis ullamcorper feugiat tristique. In dictum volutpat hac justo, senectus. Egestas diam neque, nibh nibh porttitor orci:</p>
+    <ul>
+      <li>Malesuada justo</li>
+      <li>Elementum odio sagittis</li>
+      <li>Lacus amet nullam</li>
+    </ul>
+    <img src="images/Social media.png" alt="media" class="product-media">
+    <button class="product-box">Add To Cart</button>
+  </div>
+  </div>
+  <div class="product-text3">
+    <p>This is body text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.:</p>
+    <ul>
+      <li>It has survived not only five centuries</li>
+      <li>But also the leap into electronic typesetting, remaining esse`ntially unchanged. It was popularised in the 1960s With the release of Letraset sheets containing Lorem Ipsum passages.</li>
+      <li>And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</li>
+    </ul>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. </p>
+  </div>
+  <div>
+    <h3 class="product-h">Review</h3>
+    <div class="product-flex">
+    <div class="product-review">
+      <div class="product-div4">
+      <p>“Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac dui odio ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet pellentesque volutpat at gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”</p>
     </div>
-    <div class="product__text">
-      <div class="product__h3">
-        <h3>Message Oil</h3>
-        <p><img src="images/stars.png" alt="estrellas">57 ratings</p>
-      </div>
-      <div>
-        <button class="product__button">Bestseller</button>
-        <img src="images/Bar.png" alt="bar" class="product__bar">
-      </div>
-      <img src="images/Quantity.png" alt="cantidad" class="product__cant">
-      <div class="product__text2">
-        <p>Eu et metus ultricies id ut mattis ullamcorper feugiat tristique. In dictum volutpat hac justo, senectus.
-          Egestas diam neque, nibh nibh porttitor orci:</p>
-        <ul>
-          <li>Malesuada justo</li>
-          <li>Elementum odio sagittis</li>
-          <li>Lacus amet nullam</li>
-        </ul>
-        <img src="images/Social media.png" alt="media" class="product__media">
-        <button class="product__box">Add To Cart</button>
-      </div>
+      <h6 class="product-h6-1" id="alex">Alex Kristen </h6>
+      <h6 class="product-h6-2"><img src="images/AlexKristen.png" alt="Alex">United Kingdom <img src="images/stars.png" alt="estrellas"></h6>
     </div>
-    <div class="product__text3">
-      <p>This is body text. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-        been the industry's standard dummy text ever since the 1500s.</p>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
-        a type specimen book.:</p>
-      <ul>
-        <li>It has survived not only five centuries</li>
-        <li>But also the leap into electronic typesetting, remaining esse`ntially unchanged. It was popularised in the
-          1960s With the release of Letraset sheets containing Lorem Ipsum passages.</li>
-        <li>And more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </li>
-      </ul>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-        standard dummy text ever since the 1500s. </p>
-    </div>
-    <div>
-      <h3 class="product__h">Review</h3>
-      <div class="product__flex">
-        <div class="product__review">
-          <div class="product__div4">
-            <p>“Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac
-              dui odio ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet
-              pellentesque volutpat at gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”</p>
-          </div>
-          <h6 class="product__h6--1" id="alex">Alex Kristen </h6>
-          <h6 class="product__h6--2"><img src="images/AlexKristen.png" alt="Alex">United Kingdom <img
-              src="images/stars.png" alt="estrellas"></h6>
-        </div>
-        <div class="product-review">
-          <div class="product-div4">
-            <p>“Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac
-              dui odio ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet
-              pellentesque volutpat at gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”</p>
-          </div>
-          <h6 class="product-h6-1" id="melissa">Melissa Gunton</h6>
-          <h6 class="product-h6-2"><img src="images/MelissaGunton.png" alt="Melissa"> United states <img
-              src="images/stars.png" alt="estrellas"></h6>
-        </div>
-      </div>
+    <div class="product-review">
+      <div class="product-div4">
+      <p>“Malesuada penatibus pharetra ullamcorper a dictumst. Bibendum consequat blandit viverra integer vel. Ac dui odio ultricies posuere. Donec proin varius mus in eget et urna, ultrices faucibus. Volutpat laoreet pellentesque volutpat at gravida et, at. Sed et, suspendisse tortor, porttitor enim, penatibus sit.”</p>
+     </div>
+      <h6 class="product-h6-1" id="melissa">Melissa Gunton</h6>
+      <h6 class="product-h6-2"><img src="images/MelissaGunton.png" alt="Melissa">  United states <img src="images/stars.png" alt="estrellas"></h6>
     </div>
   </div>
-
+  </div>
+</div>
   <div class="product-div">
-    <p class="product__p">
+    <p class="product-p">
       SHOP
     </p>
-    <h2 class="product__h2">
+    <h2 class="product-h2">
       Others products
     </h2>
-    <div class="product__div2">
-      <ul class="product__list2">
+    <div class="product-div2">
+      <ul class="product-list2">
         <li><img src="images/Product 9.png" alt="product-1"></li>
         <li><img src="images/Product 10.png" alt="product-2"></li>
         <li><img src="images/Product 11.png" alt="product-3"></li>
@@ -155,98 +136,94 @@
       <img src="images/our_services_pages.png" alt="">
     </div>
   </div>
-
-  <section class="news-box">
-    <div class="news-box__fond">
+  <section class="newsseller_Container ouroffer">
+    <div class="ouroffer-img">
       <img src="images/footerthird.png" alt="">
     </div>
-    <div class="news-box2 ctn-lk">
-      <div class="news-text news-text2">
-        <h3 class="news-text__transparent">Our Offer</h3>
-        <p class="nwt">This is just for you.</p>
+    <div class="container2 ctn_lk">
+      <div class="Dp Dp2">
+        <h3 class="light">Our Offer</h3>
+        <p class="Nwt">This is just for you.</p>
         <p>Get <span> 25% discount </span>for booking an <br> appointment at holidays or your birthday.</p>
       </div>
-      <form class="input-colum">
+      <form class="input_colum">
         <div class="ip">
-          <label for=""><input class="form__email"type="text" name="name" placeholder="Enter your name"></label>
-          <label for=""><input class="form__email" type="email" name="email" placeholder="Enter your e-mail"><label>
+          <label for=""><input class="email_i" type="text" name="name" placeholder="Enter your name"></label>
+          <label for=""><input class="email_i" type="email" name="email" placeholder="Enter your e-mail"><label>
         </div>
-        <input class="form__button form__button2" type="submit" value="Submit">
+        <input class="subs subs2" type="submit" value="Submit">
       </form>
     </div>
   </section>
-
   <footer>
-    <section class="footer-box">
-      <div class="footer-box__logo">
+
+    <section class="footer_container">
+      <div class="icon_social">
         <img src="images/Logo2.png" alt="">
       </div>
-      
-      <div class="footer-icon">
-        <img class="footer-icon-social" src="images/facebook.png" alt="facebook">
-        <img class="footer-icon-social"  src="images/Vector.png" alt="Vector">
-        <img class="footer-icon-social"  src="images/instagram.png" alt="instagram">
-        <img class="footer-icon-social"  src="images/twiter.png" alt="twiter">
+
+      <div class="icon_social">
+        <img src="images/facebook.png" alt="">
+        <img src="images/Vector.png" alt="">
+        <img src="images/instagram.png" alt="">
+        <img src="images/twiter.png" alt="">
       </div>
 
-      <div class="footer-main">
-        <ol>
-          <li>
-            <p class="footer-main-text">Information</p>
-          </li>
-          <li>
-            <p>About Millious</p>
-          </li>
-          <li>
-            <p>FAQ</p>
-          </li>
-          <li>
-            <p>Contact Us/p>
-          </li>
-        </ol>
-  
-        <ol>
-          <li>
-            <p class="footer-main-text">Quick Links</p>
-          </li>
-          <li>
-            <p>Services</p>
-          </li>
-          <li>
-            <p>Shop</p>
-          </li>
-          <li>
-            <p>Booking</p>
-          </li>
-        </ol>
-  
-        <ol>
-          <li>
-            <p class="footer-main-text">Contact us</p>
-          </li>
-          <li class="footer-main-icon">
-            <img src="images/ubication.png" alt="">
-            <p>176 W Street, New York,
-              NY 10014</p>
-          </li>
-          <li class="footer-main-icon">
-            <img src="images/phone.png" alt="">
-            <p>+1(565)231-5645</p>
-          </li>
-          <li class="footer-main-icon">
-            <img src="images/email.png" alt="">
-            <p>millious@example.com</p>
-          </li>
-        </ol>
-      </div>
+      <ol>
+        <li>
+          <p class="footer_Principal_Texto">Information</p>
+        </li>
+        <li>
+          <p>About Millious</p>
+        </li>
+        <li>
+          <p>FAQ</p>
+        </li>
+        <li>
+          <p>Contact Us/p>
+        </li>
+      </ol>
+
+      <ol>
+        <li>
+          <p class="footer_Principal_Texto">Quick Links</p>
+        </li>
+        <li>
+          <p>Services</p>
+        </li>
+        <li>
+          <p>Shop</p>
+        </li>
+        <li>
+          <p>Booking</p>
+        </li>
+      </ol>
+
+      <ol>
+        <li>
+          <p class="footer_Principal_Texto">Contact us</p>
+        </li>
+        <li class="icon_flex">
+          <img src="images/ubication.png" alt="">
+          <p>176 W Street, New York,
+            NY 10014</p>
+        </li>
+        <li class="icon_flex">
+          <img src="images/phone.png" alt="">
+          <p>+1(565)231-5645</p>
+        </li>
+        <li class="icon_flex">
+          <img src="images/email.png" alt="">
+          <p>millious@example.com</p>
+        </li>
+      </ol>
+
     </section>
 
-    <div class="footer-box">
+    <div class="footer_container">
       <p>© Millious 2022 </p>
       <p>All right reserved</p>
     </div>
-
-  </footer> 
+  </footer>
 </body>
-
 </html>
