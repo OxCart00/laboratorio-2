@@ -1,6 +1,3 @@
-.our-team-people li {
-  list-style: none;
-}
 
 .our-team {
   width: 73.125rem;
@@ -25,19 +22,19 @@
   height: 22rem;
 }
 
-.our-team-title {
+.our-team__title {
   text-align: center;
   margin: 0 auto;
 }
 
-.sub-up {
+.title--sub-up {
   margin-bottom: .625rem;
   font-family: 'Work Sans';
   font-size: 1rem;
   color: #303030;
 }
 
-.sub-down {
+.title--sub-down {
   margin-bottom: 1.25rem;
   gap: 1.25rem;
   font-family: 'Libre Franklin', sans-serif;
@@ -45,31 +42,31 @@
   color: #E27D60;
 }
 
-.sub-down-2 {
+.title--sub-down2 {
   margin-bottom: 2.5rem;
   font-size: 1.125rem;
 }
 
-.our-team-people ul {
+.our-team__people ul {
   padding: 0;
 }
 
-.our-team-people li {
+.our-team__people li {
   list-style: none;
 }
 
-.our-team-people-row1 {
+.people--row1 {
   display: flex;
   gap: 1.875rem;
   margin-bottom: 2.125rem;
 }
 
-.our-team-people-row2 {
+.people--row2 {
   display: flex;
   gap: 1.875rem;
 }
 
-.our-team-people-text {
+.people--text {
   margin-left: 1.25rem;
 }
 
